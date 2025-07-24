@@ -90,8 +90,8 @@ jobs:
         
         # Count current icons
         CURRENT_ICON_COUNT=0
-        if [ -d "Azure_Public_Service_Icons" ]; then
-          CURRENT_ICON_COUNT=$(find Azure_Public_Service_Icons -name "*.svg" 2>/dev/null | wc -l)
+        if [ -d "icon-viewer/public/icons" ]; then
+          CURRENT_ICON_COUNT=$(find icon-viewer/public/icons -name "*.svg" 2>/dev/null | wc -l)
         fi
         
         # Count new icons
@@ -103,7 +103,7 @@ jobs:
         # Check if there are differences
         CHANGES_DETECTED=false
         
-        if [ ! -d "Azure_Public_Service_Icons" ]; then
+        if [ ! -d "icon-viewer/public/icons" ]; then
           echo "No existing icons folder found. This will be a new addition."
           CHANGES_DETECTED=true
         elif [ "$CURRENT_ICON_COUNT" != "$NEW_ICON_COUNT" ]; then
@@ -114,10 +114,10 @@ jobs:
           echo "Comparing file contents..."
           
           # Create checksums for current icons
-          if [ -d "Azure_Public_Service_Icons" ]; then
-            cd Azure_Public_Service_Icons
-            find . -name "*.svg" -exec md5sum {} \; | sort > ../current_checksums.txt
-            cd ..
+          if [ -d "icon-viewer/public/icons" ]; then
+            cd icon-viewer/public/icons
+            find . -name "*.svg" -exec md5sum {} \; | sort > ../../../current_checksums.txt
+            cd ../../..
           else
             touch current_checksums.txt
           fi
@@ -149,14 +149,18 @@ jobs:
       run: |
         echo "Updating Azure icons..."
         
+        # Create the icons directory in icon-viewer/public if it doesn't exist
+        mkdir -p icon-viewer/public/icons
+        
         # Backup current icons if they exist
-        if [ -d "Azure_Public_Service_Icons" ]; then
+        if [ -d "icon-viewer/public/icons" ] && [ "$(ls -A icon-viewer/public/icons)" ]; then
           echo "Backing up current icons..."
-          mv Azure_Public_Service_Icons Azure_Public_Service_Icons_backup
+          mv icon-viewer/public/icons icon-viewer/public/icons_backup
+          mkdir -p icon-viewer/public/icons
         fi
         
         # Move new icons to the correct location
-        mv temp/Azure_Public_Service_Icons .
+        mv temp/Azure_Public_Service_Icons icon-viewer/public/icons/Azure_Public_Service_Icons
         
         echo "Icons updated successfully"
 
@@ -240,5 +244,5 @@ jobs:
         echo "Cleaning up temporary files..."
         rm -rf temp
         rm -f current_checksums.txt new_checksums.txt
-        rm -rf Azure_Public_Service_Icons_backup 2>/dev/null || true
+        rm -rf icon-viewer/public/icons_backup 2>/dev/null || true
         echo "Cleanup completed"
