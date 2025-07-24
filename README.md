@@ -32,6 +32,40 @@ docker run -p 8456:80 azure-icons
 
 Access the app at <http://localhost:8456>
 
+## Live Demo
+
+🌐 **View the live app:** [https://zahycs.github.io/azure-icons](https://zahycs.github.io/azure-icons)
+
+The app is automatically deployed to GitHub Pages whenever changes are made to the icons or the React app.
+
+## Deployment
+
+### Automatic Deployment
+
+The project includes GitHub Actions workflows for automated deployment:
+
+1. **Icon Updates** (`.github/workflows/update-azure-icons.yml`):
+   - Runs weekly to check for new Azure icons from Microsoft
+   - Downloads and compares with current icons
+   - Updates the repository and triggers deployment if changes are detected
+
+2. **GitHub Pages Deployment** (`.github/workflows/deploy-gh-pages.yml`):
+   - Automatically deploys to GitHub Pages on pushes to main branch
+   - Rebuilds the icon index and React app
+   - Serves the app at the GitHub Pages URL
+
+### Manual Deployment
+
+To deploy manually from your local machine:
+
+```bash
+cd icon-viewer
+npm install
+npm run deploy
+```
+
+This will build the app and deploy it to the `gh-pages` branch.
+
 ## License
 
 Icons provided by Microsoft Corporation. See [LICENSE](LICENSE) for terms.

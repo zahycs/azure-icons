@@ -207,6 +207,13 @@ jobs:
         
         echo "Changes committed and pushed successfully"
 
+    - name: Trigger deployment
+      if: steps.compare.outputs.changes_detected == 'true'
+      run: |
+        echo "Triggering GitHub Pages deployment..."
+        # The deployment will be triggered automatically by the push to main branch
+        # due to the path filters in deploy-gh-pages.yml workflow
+
     - name: Create summary
       if: always()
       run: |

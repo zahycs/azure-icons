@@ -4,26 +4,36 @@ FROM node:18-alpine AS builder
 # Set working directory
 WORKDIR /app
 
-# Copy package files
-COPY icon-viewer/package*.json ./
+# Copy package files first (for better caching)
+COPY icon-viewer/package*.json ./icon-viewer/
 
 # Install dependencies
-RUN npm ci --only=production
+WORKDIR /app/icon-viewer
+RUN npm ci
+
+# Copy the icon generation script and Azure icons
+COPY generate-icon-index.js /app/
+COPY Azure_Public_Service_Icons/ /app/Azure_Public_Service_Icons/
 
 # Copy source code
-COPY icon-viewer/ ./
+COPY icon-viewer/ /app/icon-viewer/
 
-# Copy icons to public directory
-COPY Azure_Public_Service_Icons/Icons/ ./public/icons/
+# Generate icon index
+WORKDIR /app
+RUN node generate-icon-index.js
+
+# Copy icons to public directory  
+RUN cp -r Azure_Public_Service_Icons/Icons/ icon-viewer/public/icons/
 
 # Build the application
+WORKDIR /app/icon-viewer
 RUN npm run build
 
 # Production stage
 FROM nginx:alpine
 
 # Copy built app from builder stage
-COPY --from=builder /app/build /usr/share/nginx/html
+COPY --from=builder /app/icon-viewer/build /usr/share/nginx/html
 
 # Copy custom nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
