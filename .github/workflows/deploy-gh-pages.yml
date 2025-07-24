@@ -50,13 +50,36 @@ jobs:
         node generate-icon-index.js
         echo "Icon index regenerated"
 
+    - name: Copy icons to public directory
+      run: |
+        echo "Copying icons for GitHub Pages deployment..."
+        # Remove existing icons if any
+        rm -rf icon-viewer/public/icons
+        # Copy icons from Azure_Public_Service_Icons to public directory
+        cp -r "Azure_Public_Service_Icons/Icons" "icon-viewer/public/icons"
+        echo "Icons copied successfully"
+        echo "Number of icon categories:"
+        ls -1 icon-viewer/public/icons/ | wc -l
+        echo "Sample categories:"
+        ls icon-viewer/public/icons/ | head -5
+
     - name: Build React app
       run: |
         cd icon-viewer
         npm run build
         echo "React app built successfully"
+        echo "Checking if icons were included in build:"
+        if [ -d "build/icons" ]; then
+          echo "✅ Icons directory exists in build"
+          ls build/icons/ | head -5
+          echo "Total categories: $(ls -1 build/icons/ | wc -l)"
+        else
+          echo "❌ No icons directory in build"
+        fi
       env:
         NODE_ENV: production
+        # Use relative path that works with GitHub Pages subdirectory
+        REACT_APP_ICONS_BASE_URL: ./icons
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
@@ -86,3 +109,5 @@ jobs:
         echo "📦 **Deployed from:** \`icon-viewer/build\`" >> $GITHUB_STEP_SUMMARY
         echo "🏷️ **Commit:** \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
         echo "🌿 **Branch:** \`${{ github.ref_name }}\`" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "🎨 **Icons:** SVG files served from \`./icons\`" >> $GITHUB_STEP_SUMMARY
