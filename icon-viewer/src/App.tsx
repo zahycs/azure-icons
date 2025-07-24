@@ -3,6 +3,7 @@ import './App.css';
 import { Icon } from './types';
 import IconGrid from './components/IconGrid';
 import SearchBar from './components/SearchBar';
+import ExportButton from './components/ExportButton';
 import iconIndex from './iconIndex.json';
 import categories from './categories.json';
 
@@ -140,6 +141,13 @@ function App() {
     }
   };
 
+  const handleExportProgress = (message: string) => {
+    setCopyMessage(message);
+    // Auto-clear success messages after 4 seconds, error messages after 3 seconds
+    const timeout = message.includes('exported!') ? 4000 : 3000;
+    setTimeout(() => setCopyMessage(''), timeout);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -180,6 +188,13 @@ function App() {
               />
               <span>Transparent background (PNG only)</span>
             </label>
+          </div>
+          
+          <div className="settings-group">
+            <ExportButton 
+              icons={icons}
+              onProgress={handleExportProgress}
+            />
           </div>
         </div>
         
