@@ -1,0 +1,35 @@
+# Microsoft Azure Public Service Icons License
+
+Copyright (c) Microsoft Corporation
+
+These Azure Public Service Icons are provided by Microsoft Corporation under the following terms:
+
+## PERMITTED USES
+
+1. You may use these icons to create documentation, presentations, and other materials that reference Microsoft Azure services
+2. You may use these icons in applications, websites, and other projects that integrate with or reference Microsoft Azure services
+3. You may modify the icons for the purposes listed above
+4. You may distribute the icons as part of larger works that reference Microsoft Azure services
+
+## RESTRICTIONS
+
+1. You may not use these icons in a way that suggests Microsoft endorsement of your product or service
+2. You may not use these icons as the primary branding or logo for your own products or services
+3. You may not use these icons in a way that is confusing, misleading, defamatory, or otherwise objectionable
+4. You may not use Microsoft trademarks in your product names, service names, domain names, or other branding
+
+## DISCLAIMER
+
+These icons are provided "as is" without warranty of any kind, either express or implied. Microsoft does not warrant that the icons will meet your requirements or that their use will be uninterrupted or error-free.
+
+## ADDITIONAL TERMS
+
+For complete terms of use, please refer to the Microsoft Terms of Use document included with these icons (Microsoft_Terms_of_Use.pdf) and the Azure Icons FAQ (Azure_Icons_FAQ.pdf).
+
+This license is based on Microsoft's typical terms for Azure public assets. For the most current and legally binding terms, please refer to the official Microsoft documentation provided with these icons.
+
+---
+
+Source: Microsoft Azure Public Service Icons  
+Official Documentation: [Azure architecture icons - Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/icons/)  
+Original Terms: See Microsoft_Terms_of_Use.pdf and Azure_Icons_FAQ.pdf in the Azure_Public_Service_Icons directory
