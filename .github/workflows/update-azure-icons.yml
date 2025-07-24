@@ -1,0 +1,237 @@
+name: Update Azure Icons
+
+on:
+  schedule:
+    # Run weekly on Sundays at 6 AM UTC
+    - cron: '0 6 * * 0'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-icons:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: icon-viewer/package-lock.json
+
+    - name: Create temp directory
+      run: mkdir -p temp
+
+    - name: Download latest Azure icons
+      run: |
+        echo "Downloading Azure icons from Microsoft..."
+        curl -L -o temp/Azure_Public_Service_Icons_V21.zip "https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V21.zip"
+        
+        # Verify download was successful
+        if [ ! -f temp/Azure_Public_Service_Icons_V21.zip ]; then
+          echo "Error: Failed to download Azure icons"
+          exit 1
+        fi
+        
+        # Check if file is not empty
+        if [ ! -s temp/Azure_Public_Service_Icons_V21.zip ]; then
+          echo "Error: Downloaded file is empty"
+          exit 1
+        fi
+        
+        echo "Download completed successfully"
+        ls -la temp/
+
+    - name: Extract downloaded icons
+      run: |
+        echo "Extracting Azure icons..."
+        cd temp
+        unzip -q Azure_Public_Service_Icons_V21.zip
+        
+        # Find the extracted folder (it might have a different name)
+        EXTRACTED_FOLDER=$(find . -maxdepth 1 -type d -name "*Azure*" | head -1)
+        
+        if [ -z "$EXTRACTED_FOLDER" ]; then
+          echo "Error: Could not find extracted Azure icons folder"
+          exit 1
+        fi
+        
+        echo "Found extracted folder: $EXTRACTED_FOLDER"
+        
+        # Verify the folder contains icons
+        ICON_COUNT=$(find "$EXTRACTED_FOLDER" -name "*.svg" | wc -l)
+        echo "Found $ICON_COUNT SVG icons in extracted folder"
+        
+        if [ "$ICON_COUNT" -lt 100 ]; then
+          echo "Error: Extracted folder contains too few icons ($ICON_COUNT). Expected at least 100."
+          exit 1
+        fi
+        
+        # Rename to standardized name for consistency
+        if [ "$EXTRACTED_FOLDER" != "./Azure_Public_Service_Icons" ]; then
+          mv "$EXTRACTED_FOLDER" Azure_Public_Service_Icons
+        fi
+        
+        echo "Extraction completed successfully"
+
+    - name: Compare with current icons
+      id: compare
+      run: |
+        echo "Comparing with current icons..."
+        
+        # Count current icons
+        CURRENT_ICON_COUNT=0
+        if [ -d "Azure_Public_Service_Icons" ]; then
+          CURRENT_ICON_COUNT=$(find Azure_Public_Service_Icons -name "*.svg" 2>/dev/null | wc -l)
+        fi
+        
+        # Count new icons
+        NEW_ICON_COUNT=$(find temp/Azure_Public_Service_Icons -name "*.svg" | wc -l)
+        
+        echo "Current icons: $CURRENT_ICON_COUNT"
+        echo "New icons: $NEW_ICON_COUNT"
+        
+        # Check if there are differences
+        CHANGES_DETECTED=false
+        
+        if [ ! -d "Azure_Public_Service_Icons" ]; then
+          echo "No existing icons folder found. This will be a new addition."
+          CHANGES_DETECTED=true
+        elif [ "$CURRENT_ICON_COUNT" != "$NEW_ICON_COUNT" ]; then
+          echo "Icon count changed: $CURRENT_ICON_COUNT -> $NEW_ICON_COUNT"
+          CHANGES_DETECTED=true
+        else
+          # Compare file contents using checksums
+          echo "Comparing file contents..."
+          
+          # Create checksums for current icons
+          if [ -d "Azure_Public_Service_Icons" ]; then
+            cd Azure_Public_Service_Icons
+            find . -name "*.svg" -exec md5sum {} \; | sort > ../current_checksums.txt
+            cd ..
+          else
+            touch current_checksums.txt
+          fi
+          
+          # Create checksums for new icons
+          cd temp/Azure_Public_Service_Icons
+          find . -name "*.svg" -exec md5sum {} \; | sort > ../../new_checksums.txt
+          cd ../..
+          
+          # Compare checksums
+          if ! diff -q current_checksums.txt new_checksums.txt > /dev/null; then
+            echo "Icon contents have changed"
+            CHANGES_DETECTED=true
+            
+            # Show summary of changes
+            echo "Changes detected:"
+            diff current_checksums.txt new_checksums.txt | head -20
+          else
+            echo "No changes detected in icon contents"
+          fi
+        fi
+        
+        echo "changes_detected=$CHANGES_DETECTED" >> $GITHUB_OUTPUT
+        echo "current_count=$CURRENT_ICON_COUNT" >> $GITHUB_OUTPUT
+        echo "new_count=$NEW_ICON_COUNT" >> $GITHUB_OUTPUT
+
+    - name: Update icons if changes detected
+      if: steps.compare.outputs.changes_detected == 'true'
+      run: |
+        echo "Updating Azure icons..."
+        
+        # Backup current icons if they exist
+        if [ -d "Azure_Public_Service_Icons" ]; then
+          echo "Backing up current icons..."
+          mv Azure_Public_Service_Icons Azure_Public_Service_Icons_backup
+        fi
+        
+        # Move new icons to the correct location
+        mv temp/Azure_Public_Service_Icons .
+        
+        echo "Icons updated successfully"
+
+    - name: Regenerate icon index
+      if: steps.compare.outputs.changes_detected == 'true'
+      run: |
+        echo "Regenerating icon index..."
+        
+        # Install dependencies and regenerate index
+        cd icon-viewer
+        npm ci
+        cd ..
+        
+        # Run the icon index generation script
+        node generate-icon-index.js
+        
+        echo "Icon index regenerated"
+
+    - name: Configure Git
+      if: steps.compare.outputs.changes_detected == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+    - name: Commit and push changes
+      if: steps.compare.outputs.changes_detected == 'true'
+      run: |
+        echo "Committing changes..."
+        
+        # Add all changes
+        git add -A
+        
+        # Create commit message with details
+        COMMIT_MSG="chore: update Azure icons from Microsoft (${{ steps.compare.outputs.current_count }} -> ${{ steps.compare.outputs.new_count }} icons)
+        
+        - Downloaded from: https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V21.zip
+        - Previous icon count: ${{ steps.compare.outputs.current_count }}
+        - New icon count: ${{ steps.compare.outputs.new_count }}
+        - Updated on: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+        
+        This is an automated update to keep the icons in sync with Microsoft's latest release."
+        
+        # Commit changes
+        git commit -m "$COMMIT_MSG"
+        
+        # Push to main branch
+        git push origin main
+        
+        echo "Changes committed and pushed successfully"
+
+    - name: Create summary
+      if: always()
+      run: |
+        echo "## Azure Icons Update Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "${{ steps.compare.outputs.changes_detected }}" == "true" ]; then
+          echo "✅ **Changes detected and applied**" >> $GITHUB_STEP_SUMMARY
+          echo "- Previous icon count: ${{ steps.compare.outputs.current_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- New icon count: ${{ steps.compare.outputs.new_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Icons have been updated and committed to the repository" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "ℹ️ **No changes detected**" >> $GITHUB_STEP_SUMMARY
+          echo "- Current icon count: ${{ steps.compare.outputs.current_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Icons are up to date with Microsoft's latest release" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "Source: https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V21.zip" >> $GITHUB_STEP_SUMMARY
+
+    - name: Cleanup
+      if: always()
+      run: |
+        echo "Cleaning up temporary files..."
+        rm -rf temp
+        rm -f current_checksums.txt new_checksums.txt
+        rm -rf Azure_Public_Service_Icons_backup 2>/dev/null || true
+        echo "Cleanup completed"
