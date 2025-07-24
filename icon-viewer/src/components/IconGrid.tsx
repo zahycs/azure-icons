@@ -3,7 +3,7 @@ import { IconGridProps } from '../types';
 import IconCard from './IconCard';
 import './IconGrid.css';
 
-const IconGrid: React.FC<IconGridProps> = ({ icons, onIconDoubleClick, transparentBackground }) => {
+const IconGrid: React.FC<IconGridProps> = ({ icons, onIconDoubleClick, transparentBackground, iconsBaseUrl }) => {
   console.log('IconGrid received icons:', icons.length);
   
   if (icons.length === 0) {
@@ -23,6 +23,7 @@ const IconGrid: React.FC<IconGridProps> = ({ icons, onIconDoubleClick, transpare
           icon={icon}
           onDoubleClick={(icon, event) => onIconDoubleClick(icon, event)}
           transparentBackground={transparentBackground}
+          iconsBaseUrl={iconsBaseUrl}
         />
       ))}
     </div>

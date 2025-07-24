@@ -7,16 +7,18 @@ interface ExportButtonProps {
   icons: Icon[];
   onProgress: (message: string) => void;
   className?: string;
+  iconsBaseUrl: string;
 }
 
 const ExportButton: React.FC<ExportButtonProps> = ({ 
   icons, 
   onProgress, 
-  className = 'export-button' 
+  className = 'export-button',
+  iconsBaseUrl
 }) => {
   const handleExport = async () => {
     try {
-      await DrawIoExporter.exportToDrawIo(icons, (progress: ExportProgress) => {
+      await DrawIoExporter.exportToDrawIo(icons, iconsBaseUrl, (progress: ExportProgress) => {
         onProgress(progress.message);
       });
     } catch (error) {

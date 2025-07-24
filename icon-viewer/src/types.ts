@@ -11,6 +11,7 @@ export interface IconGridProps {
   icons: Icon[];
   onIconDoubleClick: (icon: Icon, event?: React.MouseEvent) => void;
   transparentBackground: boolean;
+  iconsBaseUrl: string;
 }
 
 export interface SearchBarProps {
@@ -25,4 +26,5 @@ export interface IconCardProps {
   icon: Icon;
   onDoubleClick: (icon: Icon, event?: React.MouseEvent) => void;
   transparentBackground: boolean;
+  iconsBaseUrl: string;
 }

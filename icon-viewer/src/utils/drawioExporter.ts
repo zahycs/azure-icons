@@ -18,11 +18,13 @@ export class DrawIoExporter {
   /**
    * Exports all icons to a Draw.io library XML file
    * @param icons Array of icons to export
+   * @param iconsBaseUrl Base URL for fetching icon files
    * @param onProgress Callback function to report progress
    * @returns Promise that resolves when export is complete
    */
   static async exportToDrawIo(
     icons: Icon[],
+    iconsBaseUrl: string,
     onProgress: (progress: ExportProgress) => void
   ): Promise<void> {
     try {
@@ -37,7 +39,7 @@ export class DrawIoExporter {
         
         const batchPromises = batch.map(async (icon) => {
           try {
-            const iconPath = `/icons/${icon.category}/${icon.fileName}`;
+            const iconPath = `${iconsBaseUrl}/${icon.category}/${icon.fileName}`;
             const response = await fetch(iconPath);
             
             if (!response.ok) {

@@ -2,8 +2,8 @@ import React from 'react';
 import { IconCardProps } from '../types';
 import './IconCard.css';
 
-const IconCard: React.FC<IconCardProps> = ({ icon, onDoubleClick, transparentBackground }) => {
-  const iconPath = `/icons/${icon.category}/${icon.fileName}`;
+const IconCard: React.FC<IconCardProps> = ({ icon, onDoubleClick, transparentBackground, iconsBaseUrl }) => {
+  const iconPath = `${iconsBaseUrl}/${icon.category}/${icon.fileName}`;
 
   return (
     <div 

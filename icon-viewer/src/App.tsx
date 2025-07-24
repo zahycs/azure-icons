@@ -15,6 +15,7 @@ function App() {
   const [transparentBackground, setTransparentBackground] = useState(false);
 
   const icons: Icon[] = iconIndex;
+  const iconsBaseUrl = process.env.REACT_APP_ICONS_BASE_URL || '/icons';
 
   const filteredIcons = useMemo(() => {
     const trimmedSearchTerm = searchTerm.trim().toLowerCase();
@@ -51,7 +52,7 @@ function App() {
 
   const handleIconDoubleClick = async (icon: Icon, event?: React.MouseEvent) => {
     try {
-      const iconPath = `/icons/${icon.category}/${icon.fileName}`;
+      const iconPath = `${iconsBaseUrl}/${icon.category}/${icon.fileName}`;
       
       // Fetch the SVG content
       const response = await fetch(iconPath);
@@ -206,6 +207,7 @@ function App() {
             <ExportButton 
               icons={icons}
               onProgress={handleExportProgress}
+              iconsBaseUrl={iconsBaseUrl}
             />
           </div>
         </div>
@@ -223,6 +225,7 @@ function App() {
           icons={filteredIcons}
           onIconDoubleClick={handleIconDoubleClick}
           transparentBackground={transparentBackground}
+          iconsBaseUrl={iconsBaseUrl}
         />
       </main>
     </div>
