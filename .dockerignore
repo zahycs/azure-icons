@@ -1,0 +1,27 @@
+# Dependencies
+icon-viewer/node_modules
+icon-viewer/npm-debug.log*
+icon-viewer/yarn-debug.log*
+icon-viewer/yarn-error.log*
+
+# Build output
+icon-viewer/build
+
+# IDE and OS files
+.DS_Store
+.vscode
+.idea
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Temporary files
+*.tmp
+*.temp

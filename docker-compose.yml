@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  azure-icons:
+    build: .
+    ports:
+      - "8456:80"
+    container_name: azure-icons-viewer
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production

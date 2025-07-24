@@ -11,9 +11,26 @@ Microsoft Azure service icons with an interactive browser for easy searching and
 
 ## Usage
 
+### Local Development
+
 1. Open the icon browser: `cd icon-viewer && npm start`
 2. Search for icons or browse by category
 3. Double-click to download or right-click to copy
+
+### Docker
+
+Run with Docker:
+
+```bash
+# Build and run with docker-compose
+docker-compose up -d
+
+# Or build and run manually
+docker build -t azure-icons .
+docker run -p 8456:80 azure-icons
+```
+
+Access the app at <http://localhost:8456>
 
 ## License
 
