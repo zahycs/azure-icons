@@ -11,7 +11,7 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('');
   const [copyMessage, setCopyMessage] = useState('');
   const [downloadAsPng, setDownloadAsPng] = useState(false);
-  const [transparentBackground, setTransparentBackground] = useState(true);
+  const [transparentBackground, setTransparentBackground] = useState(false);
 
   const icons: Icon[] = iconIndex;
 
@@ -133,6 +133,13 @@ function App() {
     img.src = url;
   };
 
+  const handleDownloadAsPngChange = (checked: boolean) => {
+    setDownloadAsPng(checked);
+    if (!checked) {
+      setTransparentBackground(false);
+    }
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -160,14 +167,15 @@ function App() {
               <input
                 type="checkbox"
                 checked={downloadAsPng}
-                onChange={(e) => setDownloadAsPng(e.target.checked)}
+                onChange={(e) => handleDownloadAsPngChange(e.target.checked)}
               />
               <span>Download as PNG (instead of SVG)</span>
             </label>
-            <label className="setting-item">
+            <label className={`setting-item ${!downloadAsPng ? 'disabled' : ''}`}>
               <input
                 type="checkbox"
                 checked={transparentBackground}
+                disabled={!downloadAsPng}
                 onChange={(e) => setTransparentBackground(e.target.checked)}
               />
               <span>Transparent background (PNG only)</span>
