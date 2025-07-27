@@ -44,6 +44,55 @@ jobs:
         cd icon-viewer
         npm ci
 
+    - name: Extract and update Azure icons
+      run: |
+        echo "Extracting Azure icons from zip file..."
+        if [ -f "temp/Azure_Public_Service_Icons_V21.zip" ]; then
+          # Create a temporary extraction directory
+          mkdir -p temp/extracted
+          
+          # Extract the zip file
+          unzip -o "temp/Azure_Public_Service_Icons_V21.zip" -d temp/extracted
+          echo "✅ Zip file extracted successfully"
+          
+          # Check what was extracted
+          ls -la temp/extracted/
+          
+          # Find the Azure_Public_Service_Icons folder in the extracted content
+          if [ -d "temp/extracted/Azure_Public_Service_Icons" ]; then
+            echo "Found Azure_Public_Service_Icons in extracted content"
+            
+            # Backup existing folder if it exists
+            if [ -d "Azure_Public_Service_Icons" ]; then
+              echo "Backing up existing Azure_Public_Service_Icons folder..."
+              rm -rf Azure_Public_Service_Icons_backup
+              mv Azure_Public_Service_Icons Azure_Public_Service_Icons_backup
+            fi
+            
+            # Move the new folder to root
+            mv temp/extracted/Azure_Public_Service_Icons ./
+            echo "✅ Azure_Public_Service_Icons folder updated successfully"
+            
+            # Verify the update
+            echo "Verifying updated icons..."
+            ls -la Azure_Public_Service_Icons/
+            if [ -d "Azure_Public_Service_Icons/Icons" ]; then
+              echo "Icons directory found with $(ls -1 Azure_Public_Service_Icons/Icons/ | wc -l) categories"
+            fi
+          else
+            echo "❌ Azure_Public_Service_Icons folder not found in extracted content"
+            echo "Available directories:"
+            find temp/extracted -type d -maxdepth 2
+          fi
+          
+          # Clean up temporary extraction directory
+          rm -rf temp/extracted
+        else
+          echo "❌ Zip file not found at temp/Azure_Public_Service_Icons_V21.zip"
+          echo "Available files in temp directory:"
+          ls -la temp/ || echo "temp directory not found"
+        fi
+
     - name: Regenerate icon index
       run: |
         echo "Regenerating icon index..."
