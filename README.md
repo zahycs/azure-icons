@@ -17,6 +17,15 @@ Microsoft Azure service icons with an interactive browser for easy searching and
 2. Search for icons or browse by category
 3. Double-click to download or right-click to copy
 
+### Scripts
+
+The project includes automation scripts in the `scripts/` folder:
+
+- **Update Icons**: `node scripts/update-icons.js` - Downloads latest icons from Microsoft
+- **Generate Index**: `node scripts/generate-icon-index.js` - Regenerates icon metadata
+
+See [scripts/README.md](scripts/README.md) for detailed documentation.
+
 ### Docker
 
 Run with Docker:

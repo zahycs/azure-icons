@@ -3,7 +3,6 @@ export interface Icon {
   name: string;
   category: string;
   fileName: string;
-  path: string;
   relativePath: string;
 }
 

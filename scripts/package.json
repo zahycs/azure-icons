@@ -1,0 +1,11 @@
+{
+  "name": "azure-icons-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for managing Azure icons",
+  "scripts": {
+    "update-icons": "node update-icons.js",
+    "generate-index": "node generate-icon-index.js"
+  },
+  "keywords": ["azure", "icons", "svg"],
+  "license": "MIT"
+}
