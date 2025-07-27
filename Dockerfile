@@ -1,5 +1,5 @@
 # Multi-stage build for Azure Icons Viewer
-FROM node:18-alpine AS builder
+FROM node:22-alpine AS builder
 
 # Set working directory
 WORKDIR /app
@@ -25,9 +25,9 @@ RUN node generate-icon-index.js
 # Copy icons to public directory  
 RUN cp -r Azure_Public_Service_Icons/Icons/ icon-viewer/public/icons/
 
-# Build the application
+# Build the application for Docker (uses .env.docker settings)
 WORKDIR /app/icon-viewer
-RUN npm run build
+RUN npm run build:docker
 
 # Production stage
 FROM nginx:alpine
