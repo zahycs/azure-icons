@@ -1,0 +1,683 @@
+0054238fcfaf3783b01c82f6f38a6ced  ./integration/10219-icon-service-App-Configuration.svg
+00d76e4c69593f36d6a01cd9334e4421  ./monitor/10832-icon-service-Auto-Scale.svg
+0173c0a2715489ea35b5126d481356c1  ./other/02505-icon-service-Cloud-Services-(extended-support).svg
+018d30497cd5fa050d4c0cce7c8ebb13  ./other/01085-icon-service-Log-Analytics-Query-Pack.svg
+01af4806c31bb4a8ec455b6f29775c09  ./general/10116-icon-service-Region-Management.svg
+029ee01b224b3f8338ba5ab1ea2b30a1  ./databases/10137-icon-service-Cache-Redis.svg
+02d173258137ccd4c1ce00480fa7bea6  ./other/03421-icon-service-Defender-Pneumatic-Device.svg
+037d565d51eaebf57e5891e77a6480f4  ./analytics/10143-icon-service-Data-Lake-Analytics.svg
+04130257cd0a78752fb1c823630a2735  ./identity/10231-icon-service-Entra-ID-Protection.svg
+04236fe2d68633e1916f0bc0d318aecd  ./networking/03460-icon-service-ATM-Multistack.svg
+054530ea25a3335a8c26120bb0856f88  ./iot/10184-icon-service-IoT-Central-Applications.svg
+056cc98103a9b7d602878b95fe9674e6  ./networking/03328-icon-service-Application-Gateway-Containers.svg
+05e6bc7494c526fb77b651733b2db82c  ./iot/10369-icon-service-Device-Provisioning-Services.svg
+05ee705749ba8ff74b0b4316d375db28  ./devops/00012-icon-service-Application-Insights.svg
+05ee705749ba8ff74b0b4316d375db28  ./management + governance/00012-icon-service-Application-Insights.svg
+05ee705749ba8ff74b0b4316d375db28  ./monitor/00012-icon-service-Application-Insights.svg
+061485cb30047dcd3345bfb4a8423397  ./other/00712-icon-service-Video-Analyzers.svg
+069bfe118f3733d7dcd856b386a5ec2b  ./integration/03637-icon-service-Business-Process-Tracking.svg
+06e7f23f72316b94dbe352b0ae667b98  ./compute/03543-icon-service-AKS-Automatic.svg
+0729c7f845786c17cc3e450c0f5695e9  ./management + governance/00027-icon-service-Service-Catalog-MAD.svg
+07eaab628ddf199dccf9e86aa3ff3da2  ./new icons/029636048-icon-service-Landing-Zone.svg
+08519f20d47258615164b5a82494f137  ./networking/00860-icon-service-Virtual-WAN-Hub.svg
+085b6a2362809cb23f3cc654024571d6  ./other/00970-icon-service-Peering-Service.svg
+08c640c526f1db11927c205dcd8c9cc6  ./intune/10333-icon-service-Device-Compliance.svg
+09169b260263f819b6906f7324394ef1  ./general/10819-icon-service-Log-Streaming.svg
+091f8f129733c01a2efd077e29b9ec73  ./other/02939-icon-service-Network-Security-Perimeters.svg
+0b44238ce33782cb83bf9076b8df82ff  ./compute/10025-icon-service-Availability-Sets.svg
+0bdb5e213def04164521cfc47c6368fc  ./security/03341-icon-service-Entra-Identity-Risky-Signins.svg
+0c4f26d7326a8df2582e47d5556ce5be  ./web/03595-icon-service-App-Space-Component.svg
+0cb365566f7cb459b6c1e3a5e6deeb81  ./security/10233-icon-service-Conditional-Access.svg
+0cf6c73c7fa31181fcf7046cb63e15aa  ./databases/10130-icon-service-SQL-Database.svg
+0dd94fe7f46f889cc695b031f2fe3f9e  ./other/03071-icon-service-App-Compliance-Automation.svg
+0e978ac329ecf1c170719e0076f56339  ./other/02866-icon-service-VM-Image-Version.svg
+0f25633690b4c6b0f751d73d4b3f285d  ./general/10793-icon-service-Cost-Budgets.svg
+0f53a88847c0144cd49cfb6bc9b10880  ./compute/02817-icon-service-Restore-Points.svg
+0f6262246dd98dacf16e210d3b76f18f  ./devops/10264-icon-service-DevTest-Labs.svg
+0f6a5500dd99abb71e4d19818f9372c6  ./new icons/03675-icon-service-Azure-Managed-Redis.svg
+0f886802c04400c20183f7237c0d41ba  ./general/10811-icon-service-Heart.svg
+1043b87c141b3e2ac8f22a9ef4e706a3  ./networking/03461-icon-service-IP-Address-manager.svg
+10daae44710d790e3635e8d5bd969b4f  ./integration/10836-icon-service-Azure-Service-Bus.svg
+10ed941feb916b10fb0c47f2edeb4b3c  ./hybrid + multicloud/03248-icon-service-Azure-Operator-5G-Core.svg
+12491b8baead3ae0d461f8d996948441  ./ai + machine learning/00028-icon-service-Batch-AI.svg
+1397f8d38ff42654e29221de41d9b9ca  ./networking/00271-icon-service-Azure-Firewall-Manager.svg
+13a9abb8d11321a12c823a0dedd041b4  ./general/10831-icon-service-Resource-Linked.svg
+14334fb0e9b13cacba695ef1c36a0d4b  ./other/03314-icon-service-Azure-Sustainability.svg
+14b5f9ebf2af715ca5d38648caf4ffcb  ./other/00913-icon-service-Cost-Export.svg
+15c7255e76833ab9f639bf87eaf649ca  ./other/10334-icon-service-Exchange-On-Premises-Access.svg
+15cccb99a22edb99caf3f747790c2b8e  ./azure stack/10110-icon-service-Offers.svg
+15d30e152cc41f5b2c4603ba5c0cb7b6  ./other/03418-icon-service-Defender-Industrial-Robot.svg
+16297796f4d927a6415c979cf7440f9d  ./other/02668-icon-service-Confidential-Ledgers.svg
+1687a8873384d05d132e763096771d93  ./security/00378-icon-service-Detonation.svg
+170f6d82003cb7b543b40b77db9a855a  ./ai + machine learning/03173-icon-service-Cognitive-Services-Decisions.svg
+1717f43741e5aec6f17d29e4fd00fdec  ./integration/10363-icon-service-Logic-Apps-Custom-Connector.svg
+17a93a818d763d946902eeb80adebd1b  ./networking/10075-icon-service-Virtual-Networks-(Classic).svg
+182dbda351fd77ae783f4195261ef9d3  ./other/10778-icon-service-RTOS.svg
+183cab1974526267114fdd3806e1af6a  ./general/10851-icon-service-Workbooks.svg
+18532f59e9e45c0e5b35d1ad39c5378c  ./app services/00056-icon-service-CDN-Profiles.svg
+18532f59e9e45c0e5b35d1ad39c5378c  ./networking/00056-icon-service-CDN-Profiles.svg
+19b7b86ed14c6724aa3c06f3c15fbe7c  ./integration/00691-icon-service-Azure-Databox-Gateway.svg
+19b7b86ed14c6724aa3c06f3c15fbe7c  ./iot/00691-icon-service-Azure-Databox-Gateway.svg
+19b7b86ed14c6724aa3c06f3c15fbe7c  ./migrate/00691-icon-service-Azure-Databox-Gateway.svg
+19b7b86ed14c6724aa3c06f3c15fbe7c  ./storage/00691-icon-service-Azure-Databox-Gateway.svg
+1a4706c7d73553227342b791df1b6bee  ./hybrid + multicloud/03347-icon-service-Azure-Programmable-Connectivity.svg
+1ab80018a4740821de15d356c81bc4e9  ./devops/02373-icon-service-CloudTest.svg
+1b23fbde8a460c328f5c6de567789605  ./other/01219-icon-service-Azure-VMware-Solution.svg
+1c1af1af682c5cb4b71c821c850011a1  ./analytics/03332-icon-service-Power-BI-Embedded.svg
+1c5dc6e531cdc91029c590dddcd74c02  ./security/10245-icon-service-Key-Vaults.svg
+1cfc893acec53eabe6a6ea191e0ff592  ./storage/03502-icon-service-Storage-Actions.svg
+1cfd11d6ff1423d3e3185e45de6612d0  ./other/02658-icon-service-FHIR-Service.svg
+1e0d94ae568c92bb1d6fb6ad9f56e8e0  ./general/10794-icon-service-Counter.svg
+1e1139248ff591d13bfcdc81b7c770d8  ./ai + machine learning/02409-icon-service-Metrics-Advisor.svg
+1e1139248ff591d13bfcdc81b7c770d8  ./compute/02409-icon-service-Metrics-Advisor.svg
+1edbafe7faaa7d1710814a168c2e6a76  ./databases/10351-icon-service-SQL-Server-Registries.svg
+1ef4d3c97da12d11edad742e7e51bf95  ./azure stack/10108-icon-service-Infrastructure-Backup.svg
+1f2ac1b247550705b67d2323d0ae9be9  ./other/03414-icon-service-Defender-Engineering-Station.svg
+1f2d9e7a6b4804da3ea623496aab6dc8  ./ai + machine learning/00801-icon-service-Language-Understanding.svg
+1f3b1fe6ea8d742faaa04cf33885a462  ./general/10843-icon-service-TFS-VC-Repository.svg
+20c04cf4a48dfc7c0752cf2e8466cf6a  ./general/10791-icon-service-Cost-Alerts.svg
+211787387722a5d83d3889fe0030f815  ./other/03419-icon-service-Defender-Meter.svg
+214833de97214b5d079b30a79679e414  ./identity/02679-icon-service-Tenant-Properties.svg
+21c30368cc0568c488b5aa3c7799277d  ./general/10830-icon-service-Resource-Group-List.svg
+21c30368cc0568c488b5aa3c7799277d  ./general/10856-icon-service-Search-Grid.svg
+22b294419a11d364fa10f14c92952682  ./other/03399-icon-service-AKS-Istio.svg
+23a317a4ae2537437f1ccccb4fc2223f  ./devops/00563-icon-service-Change-Analysis.svg
+23a317a4ae2537437f1ccccb4fc2223f  ./monitor/00563-icon-service-Change-Analysis.svg
+2493bd940e6c21b3691ba8e9b1aae26f  ./iot/03485-icon-service-Azure-IoT-Operations.svg
+24c9a51c5d2c92b1e4f7e7afe98462c3  ./general/10787-icon-service-Code.svg
+25085df14806fdc656d1a14b5f495afc  ./integration/10089-icon-service-StorSimple-Device-Managers.svg
+25085df14806fdc656d1a14b5f495afc  ./storage/10089-icon-service-StorSimple-Device-Managers.svg
+252e26f6ed532269bcd82a4480cc219c  ./intune/00399-icon-service-Device-Security-Windows.svg
+25eb659625e88b8459e90b5f8cfc297a  ./ai + machine learning/10167-icon-service-Machine-Learning-Studio-Workspaces.svg
+25eb659625e88b8459e90b5f8cfc297a  ./iot/10167-icon-service-Machine-Learning-Studio-Workspaces.svg
+2631ca85d402ce7ddf534928ea2f33b8  ./other/02842-icon-service-Azurite.svg
+266c3eddcbc93c5ebe34a05572e3db85  ./devops/02761-icon-service-Lab-Accounts.svg
+26950af2689e0782c065732ce795ac3a  ./other/03413-icon-service-Defender-Distributer-Control-System.svg
+269bd7ffbb8f5569470d6a403c978c08  ./general/10013-icon-service-Help-and-Support.svg
+26d5c200f7c0ecc5a05a0d406d4db6b4  ./compute/10034-icon-service-VM-Scale-Sets.svg
+26f0a2bdd7f043a263b588d9997ea6bc  ./other/03361-icon-service-IcM-Troubleshooting.svg
+2756e95efe4b678983df60016fd912c9  ./compute/00328-icon-service-Host-Pools.svg
+2846d7b78661bf83f69a0983a95c0539  ./other/03411-icon-service-Defender-Web-Guiding-System.svg
+287e0c812998b5480be94c5197a5148c  ./integration/10209-icon-service-Relays.svg
+28e4e3406991213f47e48a1a105c0882  ./integration/02073-icon-service-System-Topic.svg
+291bc23597612f065ace1d78039a6640  ./security/10244-icon-service-Application-Security-Groups.svg
+2958f16e5cbbe9f2f83df0b26a2f84da  ./intune/10335-icon-service-Software-Updates.svg
+29b2ce6c0b0c9686e886bc6ff070bd9c  ./compute/10028-icon-service-Virtual-Machines-(Classic).svg
+29bb93e0ee17b392731af9ed72287957  ./other/03404-icon-service-Defender-Freezer-Monitor.svg
+2a2144c777292733fb8300cb6082a898  ./other/03175-icon-service-Database-Instance-For-SAP.svg
+2a9fb4ab3b22009c6b2dd7d33b082ef7  ./networking/10063-icon-service-Virtual-Network-Gateways.svg
+2ac5a1eec23c4b05f7078ca9f98e7309  ./compute/10347-icon-service-Hosts.svg
+2bc29a9943552231eb7d37548e325a5f  ./storage/03549-icon-service-Managed-File-Shares.svg
+2bd9fc21d909e03f7d62ef7dcc1fc3e8  ./networking/03368-icon-service-DNS-Security-Policy.svg
+2c9c1e89f92d38df7465ef6bd275f850  ./other/02828-icon-service-Ceres.svg
+2caaeb8e94f3ffef5689b3d274a0a999  ./app services/10047-icon-service-App-Service-Environments.svg
+2caaeb8e94f3ffef5689b3d274a0a999  ./web/10047-icon-service-App-Service-Environments.svg
+2e2368e93d1854166a9d3c18957c1757  ./devops/03339-icon-service-DevOps-Starter.svg
+2e824e4fee3f42125d89864eb0b0170e  ./other/03091-icon-service-Azure-Storage-Mover.svg
+2e8f305922d18989559a83d0b4695a7f  ./networking/10365-icon-service-Proximity-Placement-Groups.svg
+2edf286c2d47c608af60dfba30d6fa72  ./databases/00036-icon-service-SQL-Data-Warehouses.svg
+2edf286c2d47c608af60dfba30d6fa72  ./databases/10137-icon-service-Azure-SQL-Server-Stretch-Databases.svg
+2edf286c2d47c608af60dfba30d6fa72  ./integration/00036-icon-service-SQL-Data-Warehouses.svg
+2edf286c2d47c608af60dfba30d6fa72  ./integration/10137-icon-service-Azure-SQL-Server-Stretch-Databases.svg
+2f003cc88a3ccecff85130bd08b382dc  ./intune/10338-icon-service-Device-Configuration.svg
+2f6777c1ba9fd4a782d9d7fc6673303c  ./new icons/03495-icon-service-Azure-Consumption-Commitment.svg
+2f9b1d47ca33aaf70564497dd54c2a7d  ./other/02691-icon-service-Test-Base.svg
+304d016a0160eb58f35647584e12a6f6  ./intune/10337-icon-service-Device-Enrollment.svg
+30eccc7a01878b469cb6cb93099d9d2d  ./web/03291-icon-service-API-Center.svg
+310edbaab257aae00415df16b6af2859  ./general/10837-icon-service-SSD.svg
+3163c10b2970d177850c4de42f24fe0d  ./management + governance/00571-icon-service-Universal-Print.svg
+3198293c84b93d1db2bd3d5d2d01aa59  ./storage/10086-icon-service-Storage-Accounts.svg
+31da84f774ae5109b81d30a11f12d801  ./other/02488-icon-service-Azure-Monitor-Dashboard.svg
+31f44e32bf02a9475ea39674e1b6b847  ./general/10004-icon-service-Service-Health.svg
+3203dffe56b883b1be504bd2f2c7a562  ./other/02951-icon-service-Azure-Quotas.svg
+3207772ff14d913704bfdb8429b4df3d  ./new icons/029797391-icon-service-Engage-Center-Connect.svg
+322f6ea14b73dcb0f4358503657907ae  ./other/01846-icon-service-AVS-VM.svg
+3280ad3da4de6b995f1f72cfa4884639  ./identity/10223-icon-service-Groups.svg
+3280ad3da4de6b995f1f72cfa4884639  ./management + governance/00014-icon-service-My-Customers.svg
+32b2d47d4f756a086d1b8a5e82756e66  ./iot/10185-icon-service-Azure-Maps-Accounts.svg
+332f50d633547c239eec9da5565e4d4e  ./new icons/029203566-icon-service-Data-Virtualization.svg
+33b6e9ec0c970c09d33324eb41f3a574  ./iot/10192-icon-service-Time-Series-Insights-Access-Policies.svg
+33f83d4f745893b4721ed36ae8a433e6  ./other/01757-icon-service-Dashboard-Hub.svg
+3440db519d2a0f75314b06c261b3623d  ./general/10790-icon-service-Controls-Horizontal.svg
+345f95679a4910c2f9c0d451ab32583f  ./management + governance/00017-icon-service-Recovery-Services-Vaults.svg
+345f95679a4910c2f9c0d451ab32583f  ./migrate/00017-icon-service-Recovery-Services-Vaults.svg
+345f95679a4910c2f9c0d451ab32583f  ./storage/00017-icon-service-Recovery-Services-Vaults.svg
+34c6992d2870550f14ebd040aa16c923  ./other/02884-icon-service-Worker-Container-App.svg
+35106634e1cdc88152e5448b15d11eca  ./intune/10330-icon-service-eBooks.svg
+3542701d1450a0dc6a432dd89b145981  ./azure stack/10113-icon-service-Plans.svg
+3649824b47fc48f8edab4531b062250c  ./iot/03293-icon-service-Azure-Stack-HCI-Sizer.svg
+366815e54c01b26d5e5bf11389faf9c7  ./other/01285-icon-service-Peerings.svg
+36d2138a1e7696940b3c2d559f7983d7  ./storage/10090-icon-service-Data-Lake-Storage-Gen1.svg
+370d4cafb4efa1c19385cb031d1bb269  ./other/03402-icon-service-Defender-CM-Local-Manager.svg
+37ab57dd6beba14edb5215a4349c65ce  ./general/10814-icon-service-Journey-Hub.svg
+37fd2d81051de8f8a3d30ef99a8f20e2  ./iot/10181-icon-service-Time-Series-Insights-Environments.svg
+3871e93c71253dc0d4f4fc11f5cce140  ./other/02561-icon-service-Bare-Metal-Infrastructure.svg
+389995ce3d0adec625cd5bd1d3f3340e  ./analytics/10148-icon-service-Analysis-Services.svg
+393cbc62c89f4ec1c40b19383fde1254  ./other/02200-icon-service-Resource-Mover.svg
+394c829f6ad1cccd810b1148b9c0f906  ./security/03342-icon-service-Entra-Identity-Risky-Users.svg
+39a1cc8222668d7b6b582538bd28b205  ./hybrid + multicloud/03333-icon-service-Azure-Operator-Insights.svg
+39ce1ae0d352c9bc5ae8d1bf7e631ea8  ./management + governance/00007-icon-service-Activity-Log.svg
+39ce1ae0d352c9bc5ae8d1bf7e631ea8  ./monitor/00007-icon-service-Activity-Log.svg
+3aa9a0d808687485db79db5e50e8788e  ./other/01088-icon-service-Arc-Kubernetes.svg
+3aaf9c94c43041debe8b9167bbe79eed  ./databases/02517-icon-service-Azure-Purview-Accounts.svg
+3b3936b89c5f466fb6850b9cbf64b20e  ./databases/10123-icon-service-Azure-Database-MariaDB-Server.svg
+3c221d8cc5d68f134821c6312f67c19a  ./integration/03345-icon-service-Integration-Environments.svg
+3cb7095098dd3bf5d318d448b5976ca5  ./management + governance/00001-icon-service-Monitor.svg
+3cb7095098dd3bf5d318d448b5976ca5  ./monitor/00001-icon-service-Monitor.svg
+3d0bfcee87059001d9e5e05574c3ef34  ./other/10355-icon-service-WAC.svg
+3d3075fc70b5263152946690ec9903a6  ./general/10015-icon-service-Dashboard.svg
+3e7ee7059d1091bb26e3552b67f29e99  ./networking/10067-icon-service-Network-Security-Groups.svg
+3ea2a440edcd11d9faae0265d987df9f  ./other/03308-icon-service-Azure-Dev-Tunnels.svg
+3eb7e70fc9c0852de202ccc7ea9a2f7a  ./general/10813-icon-service-Input-Output.svg
+3fc92d3e2fecb539ff8e7c095a8d49b6  ./integration/10220-icon-service-SendGrid-Accounts.svg
+3fe49f723893cf55a03ee573eba40547  ./other/03412-icon-service-Defender-DCS-Controller.svg
+3ffd63a63dcd847ca957cf1e5a94054e  ./mixed reality/10352-icon-service-Spatial-Anchor-Accounts.svg
+40036505bcf8ec8941bab963ff8a2c61  ./networking/10070-icon-service-On-Premises-Data-Gateways.svg
+400b32e22e81e68a1a617becf93166f4  ./analytics/00562-icon-service-Endpoint-Analytics.svg
+41d4c8ceb7969b5382f2859fe41cbc7b  ./security/10572-icon-service-ExtendedSecurityUpdates.svg
+4226c88d1b78ecdf1a6713bf09031aff  ./general/10828-icon-service-Process-Explorer.svg
+4336a35b1e87894068789d98ab603084  ./general/10808-icon-service-Globe-Success.svg
+433fc8aae1039f21c534791f8ab6b35f  ./identity/02251-icon-service-Entra-Privleged-Identity-Management.svg
+45fd5df0d71bce8b289f785ffaae39ec  ./compute/10026-icon-service-Disks-Snapshots.svg
+460ee5680d96789043a6db61255a7a8f  ./general/10812-icon-service-Image.svg
+46a3e92789ef926be270f2590fff6675  ./general/10789-icon-service-Controls.svg
+4737b5642e9639370b88cc85c644dd60  ./azure ecosystem/01038-icon-service-Collaborative-Service.svg
+483f09dbdd58c8dfdfebd97978188786  ./iot/10203-icon-service-Windows10-Core-Services.svg
+48a35dd6746513fd92b6e249ae349910  ./compute/10039-icon-service-Shared-Image-Galleries.svg
+48c1b35fa3b8296ca603580a2d7afd6c  ./other/03405-icon-service-Defender-Historian.svg
+491e24b357063b17f11a7bf2fceecb0c  ./devops/02423-icon-service-Load-Testing.svg
+4976ac2230c51cf4655738af1a085911  ./azure ecosystem/02354-icon-service-Applens.svg
+4a72f04b44d71d7817c272e9eb59e386  ./networking/10071-icon-service-Route-Filters.svg
+4a7b37dfcf1101dda9b0b62eef7d9e5e  ./app services/00049-icon-service-App-Service-Certificates.svg
+4a7b37dfcf1101dda9b0b62eef7d9e5e  ./web/00049-icon-service-App-Service-Certificates.svg
+4abbfc55ffbd78a874dcddf01c289794  ./ai + machine learning/03390-icon-service-Content-Safety.svg
+4ae28f9d13668b65a1b09cbe627c3f4c  ./other/03422-icon-service-Defender-Programable-Board.svg
+4b08a2b9abe3b8857c7c53b4e7d9b34d  ./identity/02854-icon-service-Entra-Connect.svg
+4b4a63b1ba7e69f61427372984a6f6ac  ./databases/10132-icon-service-SQL-Server.svg
+4b4b2bba3ba99c5aac790b5598fffede  ./storage/10087-icon-service-Storage-Accounts-(Classic).svg
+4b7b5689f112a2c5b1df22ea71b87581  ./databases/02392-icon-service-SSIS-Lift-And-Shift-IR.svg
+4bfb292054a601f23ff0901ee077ff56  ./general/10847-icon-service-Website-Power.svg
+4c414bb7c4ad3b9e68315d69dad226ed  ./other/02846-icon-service-Update-Management-Center.svg
+4cabfc02c654beaebaa934e1e88fd2ff  ./azure stack/10115-icon-service-Updates.svg
+4dd0a8832a7c03b237146a1b7bd709df  ./other/03403-icon-service-Defender-External-Management.svg
+4e27b443bde615416eff1c63b03ae25f  ./other/03406-icon-service-Defender-HMI.svg
+4e4e147945580b51983493d2f8947297  ./identity/03382-icon-service-Entra-Private-Access.svg
+4f1aad4fc8f913179cb72341f620de62  ./management + governance/01710-icon-service-Arc-Machines.svg
+4f38a6306813d366490fefa6b730a580  ./general/10849-icon-service-Web-Slots.svg
+4fdc58067032276fffba5efe264be212  ./general/10009-icon-service-Templates.svg
+4fec85096ecf7c62a2c3bc623a8a9f58  ./general/10853-icon-service-Backlog.svg
+501e36ab7531ba4c34a6ead3e66186e2  ./general/10854-icon-service-Media.svg
+515c5262242b8ad2e053ceb03e976d85  ./app services/10035-icon-service-App-Services.svg
+515c5262242b8ad2e053ceb03e976d85  ./compute/10035-icon-service-App-Services.svg
+515c5262242b8ad2e053ceb03e976d85  ./containers/10035-icon-service-App-Services.svg
+515c5262242b8ad2e053ceb03e976d85  ./mobile/10035-icon-service-App-Services.svg
+515c5262242b8ad2e053ceb03e976d85  ./web/10035-icon-service-App-Services.svg
+5325816248a225305ee843d795459d76  ./analytics/00039-icon-service-Event-Hubs.svg
+5325816248a225305ee843d795459d76  ./iot/00039-icon-service-Event-Hubs.svg
+54bfdc8b75e3587ec0ec98b9a82b9bb0  ./general/10003-icon-service-Reservations.svg
+54ff91c508a7e7a7d2308ee17422d7cd  ./general/10781-icon-service-Blob-Page.svg
+55413e43099c92c93edaa141032dda09  ./management + governance/10313-icon-service-Managed-Applications-Center.svg
+556908e1303da79aaa38f8ba1b0f0dcd  ./web/10309-icon-service-Azure-Media-Service.svg
+55a72fe0de36e4bcce639bd9bed8bce5  ./management + governance/00006-icon-service-Blueprints.svg
+55f915a4a52842d96a093ead2b1c2dbc  ./integration/02265-icon-service-Partner-Registration.svg
+56097a38a4bc6b36b9d05ba700c0d737  ./blockchain/10366-icon-service-Azure-Blockchain-Service.svg
+573ccf96a7453265fcbd0e1815920eff  ./networking/02496-icon-service-Virtual-Router.svg
+576f76c3ec94458018d26c821fadda61  ./analytics/00606-icon-service-Azure-Synapse-Analytics.svg
+576f76c3ec94458018d26c821fadda61  ./databases/00606-icon-service-Azure-Synapse-Analytics.svg
+582df6ba9220ebee0e944fd9b1a18421  ./other/03415-icon-service-Defender-Industrial-Packaging-System.svg
+5888c1da9b8098de9f59797a2c24344f  ./intune/10329-icon-service-Intune.svg
+5888c1da9b8098de9f59797a2c24344f  ./intune/10343-icon-service-Intune-For-Education.svg
+5888c1da9b8098de9f59797a2c24344f  ./intune/10344-icon-service-Intune-App-Protection.svg
+58e22fbd7dfa11a58583a20a2bc49991  ./identity/03383-icon-service-Entra-Internet-Access.svg
+5920452c981368d92e72f5989b46454d  ./general/10850-icon-service-Web-Test.svg
+594957ca6c996c8ea4575d1c27631ad8  ./devops/10265-icon-service-Lab-Services.svg
+5a6a9c7f155591eb9fb622f9398e2768  ./compute/10027-icon-service-OS-Images-(Classic).svg
+5a6a9c7f155591eb9fb622f9398e2768  ./compute/10040-icon-service-VM-Images-(Classic).svg
+5acebc586ba8850f720be893f1772865  ./compute/03487-icon-service-Compute-Fleet.svg
+5adc96fe8a4b92674418c4a5f346809b  ./analytics/10126-icon-service-Data-Factories.svg
+5adc96fe8a4b92674418c4a5f346809b  ./databases/10126-icon-service-Data-Factories.svg
+5adc96fe8a4b92674418c4a5f346809b  ./integration/10126-icon-service-Data-Factories.svg
+5af70e7af00ef5cffff8d23b5446282b  ./general/10019-icon-service-Cost-Management.svg
+5b70b35afeafd269869c23babdc02b7f  ./compute/00400-icon-service-Workspaces.svg
+5bb02cfcf3c2a20b5a4495ce08598002  ./iot/10182-icon-service-IoT-Hub.svg
+5c0fe4ddfa99c717768eacb08346535a  ./other/03468-icon-service-HDI-AKS-Cluster.svg
+5cc14f6a70f6d428981212747e9f89c8  ./other/02507-icon-service-Azure-Support-Center-Blue.svg
+5d4e8b34d7a308057b4443035167bb91  ./integration/10095-icon-service-Azure-Stack-Edge.svg
+5d4e8b34d7a308057b4443035167bb91  ./migrate/10095-icon-service-Azure-Stack-Edge.svg
+5d4e8b34d7a308057b4443035167bb91  ./storage/10095-icon-service-Azure-Stack-Edge.svg
+5e21c94c0c08fb27e3531ef6e800fbe9  ./compute/10029-icon-service-Function-Apps.svg
+5e21c94c0c08fb27e3531ef6e800fbe9  ./iot/10029-icon-service-Function-Apps.svg
+5e488a3d400247f46baae379de7db02b  ./other/03563-icon-service-WAC-Installer.svg
+5e954dfafd733d0b2f80005f200209b8  ./other/01001-icon-service-Azure-Network-Function-Manager-Functions.svg
+5eeb0f30c3354a76c3c041f62e7a53ec  ./management + governance/00756-icon-service-Azure-Arc.svg
+5f2b34f726ea0e917d9b8c15e1c3818f  ./other/02793-icon-service-Mission-Landing-Zone.svg
+5f49776b9fcd9dc505fdd7919d005a0d  ./other/03092-icon-service-Central-Service-Instance-For-SAP.svg
+5f5a6a3f20c566b30cfe155a0cadcc2a  ./compute/00195-icon-service-Maintenance-Configuration.svg
+5fee704358754fd46f81688f59c7c0a5  ./intune/10336-icon-service-Security-Baselines.svg
+60e26b64cd46ad155d6929a5e4f58c90  ./new icons/03565-icon-service-SQL-Database-Fleet-Manager.svg
+6110f9158d661ca709dd5c43acfccbf2  ./new icons/029455661-icon-service-FRD-QA.svg
+61db7cf1c31a026c598ccb2d7ab46306  ./management + governance/00010-icon-service-Scheduler-Job-Collections.svg
+6234c30b5805a0bb13f79bdb705ab082  ./networking/02882-icon-service-DNS-Private-Resolver.svg
+627c32ece77ce75d1847a6bad83fa363  ./networking/10061-icon-service-Virtual-Networks.svg
+62c48aad15783fbd653b3995df85c715  ./other/02579-icon-service-Private-Endpoints.svg
+63416db91e6fd43e12ee502bfa3b1e27  ./iot/10053-icon-service-Notification-Hub-Namespaces.svg
+63416db91e6fd43e12ee502bfa3b1e27  ./web/10053-icon-service-Notification-Hub-Namespaces.svg
+63d4229614609cd62cc4ca7fe0e122b1  ./general/10810-icon-service-Guide.svg
+649c01f27abffd29049c8a7d62594b36  ./other/02602-icon-service-Open-Supply-Chain-Platform.svg
+65203687ae577355f8b6f2bd2857a68b  ./other/02909-icon-service-Storage-Functions.svg
+654a1fc3dd61ffdb59ecc582144ea74a  ./general/10838-icon-service-Storage-Azure-Files.svg
+6571c50bcd68de3c4fd9f887c556a719  ./other/03190-icon-service-Elastic-SAN.svg
+65e1a2158a64a6f12a03defb669a1f3b  ./compute/10024-icon-service-Mesh-Applications.svg
+65f8564066f77079a249b152762a2ff9  ./other/02989-icon-service-Container-Apps-Environments.svg
+665c8eca7e5a1c12657a8015ef5aa5df  ./security/03344-icon-service-Multifactor-Authentication.svg
+66a3a4ecbd4b535a93b7bcf545b17897  ./integration/10215-icon-service-Event-Grid-Domains.svg
+66de80c36c39f7c4575e8bdff2079ff4  ./ai + machine learning/00793-icon-service-Custom-Vision.svg
+671f2610c8dc3585979092abcfe10f51  ./azure ecosystem/02573-icon-service-Azure-Hybrid-Center.svg
+6734b08cb949226edadd4e9b6824a0c3  ./identity/10230-icon-service-Users.svg
+67358beaec719d17ea419a87128eb120  ./databases/03490-icon-service-Oracle-Database.svg
+6746130ecfdd181e7fd683aaf06174dd  ./general/10792-icon-service-Cost-Analysis.svg
+67b3a472d24b25502185112434c84d2c  ./storage/10091-icon-service-Storage-Explorer.svg
+67b9d3e7f160e1518ae2e3480d2b607d  ./networking/10082-icon-service-Route-Tables.svg
+6838e4ea3623b3350ad120a6ec5aff5a  ./security/10241-icon-service-Microsoft-Defender-for-Cloud.svg
+685bd81c69ef1cb658d866c6a23fe699  ./networking/10072-icon-service-DDoS-Protection-Plans.svg
+6894a42a4481837ec935b20031866a6a  ./mixed reality/00698-icon-service-Remote-Rendering.svg
+6a6f754b9f6a67878ec74b6b7f5b341b  ./general/10844-icon-service-Toolbox.svg
+6c269b73d4c653615379b6d68725ed13  ./azure stack/00965-icon-service-Multi-Tenancy.svg
+6c833118083f9ad59702f76fcab3b8ca  ./integration/10221-icon-service-Event-Grid-Subscriptions.svg
+6c833118083f9ad59702f76fcab3b8ca  ./iot/10221-icon-service-Event-Grid-Subscriptions.svg
+6d41012e615cb5200f6c17c5e6fad8cd  ./management + governance/00021-icon-service-Solutions.svg
+6dc3b0aca80f744594faf1f89939366c  ./networking/10362-icon-service-Web-Application-Firewall-Policies(WAF).svg
+6dfe7a5a7a82a71e683d33a1d06fe248  ./identity/03256-icon-service-Multi-Factor-Authentication.svg
+6e0a5d1d2957ae2b64ac2667008cfc00  ./other/02560-icon-service-Disk-Pool.svg
+6e2e3f635bb45dc967b2bfb25bc9bb42  ./general/10824-icon-service-Power.svg
+6e40a2eb42f71d1860fca64181d700e0  ./general/10803-icon-service-Folder-Website.svg
+6e454fe807c5abb7aa6700a3f9916972  ./management + governance/03366-icon-service-Resources-Provider.svg
+6e78ac74be6965eb858d2c0f181c3519  ./other/02515-icon-service-Web-App-+-Database.svg
+6e84c8ac166912376146a7e0a7de259b  ./ai + machine learning/02876-icon-service-Language.svg
+6f5de6d00dd35df9a07de9a5236c5599  ./storage/10098-icon-service-Data-Shares.svg
+70317cb82d5c20ee416aa7ee9fadf4f6  ./other/02503-icon-service-SCVMM-Management-Servers.svg
+713f827cc735b16908c6ed16b5d31fe4  ./compute/10036-icon-service-Service-Fabric-Clusters.svg
+713f827cc735b16908c6ed16b5d31fe4  ./containers/10036-icon-service-Service-Fabric-Clusters.svg
+71771eb433e5583ebc83c3aef1f4d63b  ./networking/10073-icon-service-Front-Door-and-CDN-Profiles.svg
+71771eb433e5583ebc83c3aef1f4d63b  ./web/10073-icon-service-Front-Door-and-CDN-Profiles.svg
+71a0c957a43dee6a0c833067f9f72d56  ./identity/10232-icon-service-App-Registrations.svg
+71a0c957a43dee6a0c833067f9f72d56  ./other/10232-icon-service-App-Registrations.svg
+71f2beae471f6bc40d52839315c0c5d9  ./general/10845-icon-service-Versions.svg
+72c05acd8ffb2fac39fcdce5fb5080e1  ./other/03417-icon-service-Defender-Industrial-Scale-System.svg
+72e4fcaeb3a83cdec93843b6d69e3fad  ./general/10011-icon-service-Management-Groups.svg
+73575b13f8fc6ecafd2665487f9e420d  ./general/10817-icon-service-Load-Test.svg
+7371613097f29a4b903a27a77cd67195  ./networking/10068-icon-service-Public-IP-Addresses-(Classic).svg
+73e415844800a1e06a848168e90ed578  ./general/10835-icon-service-Server-Farm.svg
+7407c588930358932cb2c9b3282e2481  ./other/02486-icon-service-Fiji.svg
+744070325c42c793749c03fe12135eea  ./other/02237-icon-service-Network-Managers.svg
+7500a06b4f4ab8ea84e91b65873c6bed  ./general/10788-icon-service-Commit.svg
+757e84af31a195026e1730ee67f49316  ./ai + machine learning/01239-icon-service-Azure-Experimentation-Studio.svg
+76e84416a0b573cb7fe1fb6fcae34112  ./other/03423-icon-service-Defender-Relay.svg
+776d5989fd06ffd6df1df0c736d5e6df  ./iot/02359-icon-service-Industrial-IoT.svg
+77dc6072c3756d44f9a26224b6161cef  ./integration/10213-icon-service-Software-as-a-Service.svg
+78f7d25a463c1356f937bfbb0e4c32db  ./general/10834-icon-service-Search.svg
+795174fd8711038372e57d62ac87cbca  ./analytics/10149-icon-service-Event-Hub-Clusters.svg
+795174fd8711038372e57d62ac87cbca  ./iot/10149-icon-service-Event-Hub-Clusters.svg
+79a04cf6ac827367bfe610895930169f  ./networking/10065-icon-service-Traffic-Manager-Profiles.svg
+7a6c005d063a280d42f8432da74d182f  ./ai + machine learning/00797-icon-service-Speech-Services.svg
+7aa3df684d1744957521a67741f92b6f  ./networking/02422-icon-service-Bastions.svg
+7c31501475b2014caa082832afed0880  ./intune/10332-icon-service-Devices.svg
+7c40768917b3b1418447cafdd9bd2445  ./general/10852-icon-service-Workflow.svg
+7c41c42769c1147c2769a3cf1a4e0f2e  ./general/00004-icon-service-Cost-Management-and-Billing.svg
+7c41c42769c1147c2769a3cf1a4e0f2e  ./management + governance/00004-icon-service-Cost-Management-and-Billing.svg
+7c41c42769c1147c2769a3cf1a4e0f2e  ./migrate/00004-icon-service-Cost-Management-and-Billing.svg
+7c625b56760369a5915736a6f58832d2  ./other/02810-icon-service-Azure-Edge-Hardware-Center.svg
+7ca3fe3d331af2555dbb7e303931c195  ./ai + machine learning/00796-icon-service-Personalizers.svg
+7d1a9caedb96d3936b489e1bfc1bd370  ./identity/10235-icon-service-Identity-Governance.svg
+7f697285f4b2f663f32f3a2b00a78f93  ./compute/10030-icon-service-Cloud-Services-(Classic).svg
+7fbe591c2d88b7d8fb44db24a1376b09  ./general/10798-icon-service-Error.svg
+80630ad3ef1f49856c2d861fd26a5850  ./general/10783-icon-service-Browser.svg
+80a9567029e3e0e6c8229d548a5fc60f  ./intune/10339-icon-service-Exchange-Access.svg
+80dd02b8e25f790deabd129db801e0a0  ./storage/00776-icon-service-Azure-HCP-Cache.svg
+812a451d5719583db6edc7f0bd24ab1d  ./ai + machine learning/00800-icon-service-Translator-Text.svg
+81cd15c9e8f58d7c1a3bd4ad5e1841c5  ./ai + machine learning/00799-icon-service-QnA-Makers.svg
+822160022046e5ad23e9271fd9aee75c  ./other/02880-icon-service-Savings-Plans.svg
+8312672f4d44393086c97a36986013ab  ./identity/10228-icon-service-Azure-AD-B2C.svg
+83251c66ef1381db1f77c96afb689d38  ./databases/10122-icon-service-Azure-Database-MySQL-Server.svg
+833210e774b40a6c7ab54a92603a2f4a  ./other/02908-icon-service-Targets-Management.svg
+8333feb6ede8f288aa4118caa43b3555  ./analytics/10142-icon-service-HD-Insight-Clusters.svg
+8356f66cfe8ab5a85ae0c0bb475570ab  ./ai + machine learning/00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services.svg
+8356f66cfe8ab5a85ae0c0bb475570ab  ./iot/00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services.svg
+843d2bbc36b6d42d5531795c37e60af8  ./other/10018-icon-service-Azure-A.svg
+84538a72e465ec590c60fb29d3839e83  ./intune/10350-icon-service-Mindaro.svg
+8484ca1d1ecb4d36f094b40cca9929cb  ./ai + machine learning/00031-icon-service-Genomics.svg
+8484ca1d1ecb4d36f094b40cca9929cb  ./ai + machine learning/10164-icon-service-Genomics-Accounts.svg
+8502a75abc05d89d512d80844fdd56fa  ./general/10823-icon-service-Mobile-Engagement.svg
+85ad8590fdad3b7b6b210b43aabdf4d1  ./other/02922-icon-service-Sonic-Dash.svg
+86a54cf25f542ebd16dcde57ce8b2a61  ./identity/10225-icon-service-Enterprise-Applications.svg
+8726dce84521a419fe29b9089bc3c9ee  ./general/10797-icon-service-Download.svg
+8752fe7d53a8b1cc1493879bc71ff35f  ./other/03394-icon-service-Virtual-Enclaves.svg
+8784e70da5af6713000c8bd31b387599  ./other/02733-icon-service-Windows-Notification-Services.svg
+87a52273ed76c60ccd2f7cad5160f6fc  ./other/03250-icon-service-Microsoft-Dev-Box.svg
+884b74e5b5ad4574a4cea3baa574ef2e  ./general/10815-icon-service-Launch-Portal.svg
+888e7bf94b8966c8d2ec76afd8a104f6  ./networking/02302-icon-service-Load-Balancer-Hub.svg
+88db3ed6f8681df26afa89498183fc72  ./compute/10032-icon-service-Disks.svg
+88db3ed6f8681df26afa89498183fc72  ./compute/10041-icon-service-Disks-(Classic).svg
+88fa874f687d2a14de62bdda7ae5543b  ./ai + machine learning/00812-icon-service-Immersive-Readers.svg
+8941425087499966d35c971bb229427e  ./storage/10096-icon-service-Azure-NetApp-Files.svg
+8961620e3f713413fa088792550837f3  ./identity/10229-icon-service-Azure-Information-Protection.svg
+8961620e3f713413fa088792550837f3  ./security/10229-icon-service-Azure-Information-Protection.svg
+896a64f4c26a26eb1a6aa2d586655878  ./other/03365-icon-service-OSConfig.svg
+89bf752c5fbc8a4beae1bfa4f4e6cb47  ./general/10807-icon-service-Globe-Error.svg
+89e575e3827e95032873d910620da556  ./general/10829-icon-service-Production-Ready-Database.svg
+8a10fe5310e95b941abb11ec3f3823e3  ./other/02361-icon-service-Backup-Vault.svg
+8a38b3b4121a286dbf39f94ee3434df1  ./ai + machine learning/10044-icon-service-Cognitive-Search.svg
+8a38b3b4121a286dbf39f94ee3434df1  ./app services/10044-icon-service-Cognitive-Search.svg
+8a38b3b4121a286dbf39f94ee3434df1  ./web/10044-icon-service-Cognitive-Search.svg
+8a46118857fbf97ad1fe353e05881b30  ./general/00456-icon-service-Preview-Features.svg
+8ac43955491e9dcb13bba28276b70d50  ./new icons/029109619-icon-service-Toolchain-Orchestrator.svg
+8ac43955491e9dcb13bba28276b70d50  ./new icons/029109619-icon-service-Workload-Orchestration.svg
+8ae1242c69288d2e1f382265e29670ed  ./ai + machine learning/03337-icon-service-Bonsai.svg
+8b265a48756651fd4419e5b46737e193  ./compute/10038-icon-service-Image-Versions.svg
+8b46adf28b6be0a3325f090a9b7ee0b8  ./other/02340-icon-service-Template-Specs.svg
+8c09331d1d638cd89c89b00d21223931  ./other/01849-icon-service-Arc-SQL-Managed-Instance.svg
+8c2c8d11ca6b4326d261af0295528ba4  ./management + governance/00025-icon-service-Service-Providers.svg
+8c807175e852f6b4bbaa9066ace6b9f2  ./other/02949-icon-service-Virtual-Visits-Builder.svg
+8c8f84f3b3ad1e4bf6ef50dd71934ebc  ./management + governance/00002-icon-service-Alerts.svg
+8d2f34bd681839851ec74950b685ac52  ./analytics/10150-icon-service-Data-Lake-Store-Gen1.svg
+8d72b299cb26f30382c349ea4608b5a0  ./databases/10136-icon-service-SQL-Managed-Instance.svg
+8d87b32bd620c926a59442edd900c3fa  ./compute/10023-icon-service-Kubernetes-Services.svg
+8d87b32bd620c926a59442edd900c3fa  ./compute/10049-icon-service-Container-Services-(Deprecated).svg
+8d87b32bd620c926a59442edd900c3fa  ./containers/10023-icon-service-Kubernetes-Services.svg
+8e029c212b7d2e4f4744804603920d38  ./other/01850-icon-service-Arc-SQL-Server.svg
+8e2108ac3354099ad55e6cd41de20807  ./compute/10104-icon-service-Container-Instances.svg
+8e2108ac3354099ad55e6cd41de20807  ./containers/10104-icon-service-Container-Instances.svg
+8e81c0fb05cd3bd2962c81e1e4761adc  ./general/10802-icon-service-Folder-Blank.svg
+8eb36833217097f884788a933aa0ff01  ./general/10782-icon-service-Branch.svg
+8f2aebe30a8a7a389ed8c6050177fc0e  ./compute/02634-icon-service-Image-Templates.svg
+8f2b85fae1cd516c6652797ac6c0a092  ./databases/10121-icon-service-Azure-Cosmos-DB.svg
+8f2b85fae1cd516c6652797ac6c0a092  ./iot/10121-icon-service-Azure-Cosmos-DB.svg
+8f82bdae25e42f92ecd7c915de24389a  ./other/01848-icon-service-Arc-PostgreSQL .svg
+8f97485a88d306f53c5cca74d2d6a4bb  ./networking/10353-icon-service-Virtual-WANs.svg
+9015fea0dba898319bf7f70660043119  ./blockchain/10375-icon-service-Consortium.svg
+90a2f64f4a203347cea79a5627ee1384  ./iot/10114-icon-service-Azure-Stack.svg
+90b1b38ff0a84145bccf6df71cb6b241  ./identity/03143-icon-service-Entra-Verified-ID.svg
+91021752577735c68265eee0d9a788b6  ./general/10796-icon-service-Dev-Console.svg
+9130c838c0a2b5ff772169c467fe3bcd  ./blockchain/10374-icon-service-ABS-Member.svg
+91d55f1e4f3b0694f2190c6560311fec  ./general/10805-icon-service-Gear.svg
+930b6235ae17b77bdfd148402140b56a  ./integration/10216-icon-service-Azure-Data-Catalog.svg
+9323b0bd9d329113d86037c2f25af942  ./identity/02386-icon-service-API-Proxy.svg
+93af3edae1f6644b5b12c0ccd69a8ae4  ./other/03134-icon-service-Kubernetes-Fleet-Manager.svg
+93c7961b5c81ecb1aa817eab00de9a5d  ./networking/10310-icon-service-NAT.svg
+9423ff030eff1fb6d2674b2341de9e9c  ./other/03407-icon-service-Defender-Marquee.svg
+9464050aefbb136daec9b12ba397eea0  ./other/02654-icon-service-Custom-IP-Prefix.svg
+94b64dbbbc3201eaf5814f0db5b046ab  ./other/02865-icon-service-Community-Images.svg
+951ae33f23d7fc6bfedfb96ece7f9d41  ./other/02805-icon-service-VM-App-Definitions.svg
+9552ebf27432f35221f9d699d0d8bd23  ./management + governance/00003-icon-service-Advisor.svg
+955330d1d2bcb9c8e94fc45671d139b3  ./management + governance/00026-icon-service-Education.svg
+958de5a85ab85f056aa55a7ac51871b3  ./other/02223-icon-service-Azure-Chaos-Studio.svg
+95f797f1faa2b3a1cbb532efbfabe268  ./general/10780-icon-service-Blob-Block.svg
+9609c182d50b6d5fe3e941b4a8506404  ./general/10016-icon-service-Free-Services.svg
+96105956c8606c07973445bd25887277  ./identity/00919-icon-service-Administrative-Units.svg
+961a3370250d1a7373d378de0d11f30e  ./ai + machine learning/00794-icon-service-Face-APIs.svg
+96549186fce3f19c727c774a1b1fcb08  ./other/02475-icon-service-Device-Update-IoT-Hub.svg
+9686e122c8bd0b8db517d293d29afd8b  ./networking/10080-icon-service-Network-Interfaces.svg
+96c2ab9dc1e5c948ea778c82525e4d26  ./databases/10133-icon-service-Azure-Database-Migration-Services.svg
+96c2ab9dc1e5c948ea778c82525e4d26  ./migration/10133-icon-service-Azure-Database-Migration-Services.svg
+973a15b8a1ed4b741e65314101c5e516  ./general/10801-icon-service-Files.svg
+979b84ad3e34c4b7df58a457c9c0102c  ./general/10855-icon-service-Module.svg
+97d48411d9ecd9b8ebe9eeb96eb59f6b  ./analytics/00042-icon-service-Stream-Analytics-Jobs.svg
+97d48411d9ecd9b8ebe9eeb96eb59f6b  ./iot/00042-icon-service-Stream-Analytics-Jobs.svg
+9837033620b14c44869b0c7ca3715bef  ./other/02905-icon-service-Azure-Managed-Grafana.svg
+9987199e65e0e920006ae93d95b9f726  ./other/02573-icon-service-Connected-Vehicle-Platform.svg
+99965cb2279956681b8bbb1a8c472815  ./compute/02864-icon-service-Azure-Compute-Galleries.svg
+99965cb2279956681b8bbb1a8c472815  ./other/02864-icon-service-Azure-Compute-Galleries.svg
+99fb154a2efb4e9eaef7cd1bdb9c08ce  ./monitor/00438-icon-service-Azure-Monitors-for-SAP-Solutions.svg
+9a4a9e47e0afc571bf92ff8f5975486a  ./ai + machine learning/00819-icon-service-Form-Recognizers.svg
+9a59b421fc448151cace3e5a878c5c09  ./other/03410-icon-service-Defender-Slot.svg
+9a967681e10bcb319de8287a6928f4ae  ./networking/10081-icon-service-Connections.svg
+9a9dffd898e12ff80186c6b74404b0bf  ./general/10795-icon-service-Cubes.svg
+9b0cb6fd71fa2964d343408b74304ca8  ./migrate/10281-icon-service-Azure-Migrate.svg
+9b22076741caeaee199bc536e6b7ccae  ./other/02697-icon-service-Azure-Orbital.svg
+9dbfa5b3b70b13897ca9e5364eb307ce  ./other/01857-icon-service-Data-Collection-Rules.svg
+9f10a62fcaafe4b0ce3b96f77fbe086e  ./iot/10188-icon-service-Time-Series-Insights-Event-Sources.svg
+9f94a1e9d7cecf040897515892aaa9fb  ./general/10799-icon-service-Extensions.svg
+a01ff7baa5bb8bf40f36d5fc68ce73c9  ./identity/01084-icon-service-Verifiable-Credentials.svg
+a02c3153536a7888906c9aace95bb688  ./other/02931-icon-service-Compliance-Center.svg
+a03bb2990d2fb95d3ce6039862493237  ./ai + machine learning/02749-icon-service-Azure-Applied-AI-Services.svg
+a131e2f28ed8e6acb5bb8242c5242282  ./security/02247-icon-service-Microsoft-Defender-for-IoT.svg
+a13854db9ce28fa1c2dd77e7f489a96f  ./management + governance/10311-icon-service-Managed-Desktop.svg
+a1a5c59885c8ade1f98b3ff04570d309  ./storage/10400-icon-service-Azure-Fileshares.svg
+a1b1003a60668f07bb59d2fec90ab870  ./general/10002-icon-service-Subscriptions.svg
+a20838027aad767349fbe4c2c7fbf9ed  ./web/03397-icon-service-App-Space.svg
+a2408246e72fae85922f0de6d8432d33  ./general/10820-icon-service-Management-Portal.svg
+a277393ec196aa3f4bc8ee0caab34ebd  ./devops/03455-icon-service-Code-Optimization.svg
+a2ce651cf91605248220fe07a08b724f  ./compute/00330-icon-service-Workspaces.svg
+a31c9932f5cd9544813ec7455c6d0857  ./devops/03393-icon-service-Managed-DevOps-Pools.svg
+a428d3e054ce972865c6472b8944989f  ./other/03408-icon-service-Defender-Robot-Controller.svg
+a47a3ac831cf3402d7a78d0717142799  ./networking/00427-icon-service-Private-Link.svg
+a50c3e3d1fbcc704cb42693a54cc388f  ./integration/10206-icon-service-Event-Grid-Topics.svg
+a539562f7c732c51728acbd90d2be031  ./management + governance/00008-icon-service-Diagnostics-Settings.svg
+a539562f7c732c51728acbd90d2be031  ./monitor/00008-icon-service-Diagnostics-Settings.svg
+a578732ee196bab373df406ebafd0b55  ./blockchain/10367-icon-service-Azure-Token-Service.svg
+a58f9079c3e5117000944503515a15b1  ./management + governance/10303-icon-service-User-Privacy.svg
+a60628f234f5e7a4c755b1517e12e6b2  ./blockchain/10210-icon-service-Blockchain-Applications.svg
+a6c7507dd995cf9c9fe3561e047c28a7  ./networking/00701-icon-service-IP-Groups.svg
+a70fc0dcf9ca78e76da3aa18f62ac9d3  ./general/10007-icon-service-Resource-Groups.svg
+a80d401f49c579d7e52b1a381b369371  ./identity/10224-icon-service-Active-Directory-Connect-Health.svg
+a80d401f49c579d7e52b1a381b369371  ./identity/10224-icon-service-Entra-Connect-Health.svg
+a8a368dae5e61ea91f443f35cff8966f  ./management + governance/00011-icon-service-Compliance.svg
+a8be86185d71eaf39d515bb04d19194d  ./networking/10062-icon-service-Load-Balancers.svg
+a969d5c3b7d6d39e27287f75489f4664  ./integration/02631-icon-service-Logic-Apps.svg
+a969d5c3b7d6d39e27287f75489f4664  ./iot/02631-icon-service-Logic-Apps.svg
+a9b2f4f0941aae52a92c3fab8bb5af02  ./management + governance/10450-icon-service-MachinesAzureArc.svg
+a9c9df9e2362b5a938747ebc8ed99835  ./ai + machine learning/00795-icon-service-Content-Moderators.svg
+a9efd8439f3d788e5ec00ec60fceb22e  ./identity/10227-icon-service-Entra-Managed-Identities.svg
+aae795c90b7e90680ef465e2cf410f6f  ./storage/10100-icon-service-Import-Export-Jobs.svg
+aaef0c6724fc23132abec5fe4ad2eaf3  ./blockchain/10364-icon-service-Outbound-Connection.svg
+ab79bd05c4fa9b918177b65c915f3371  ./general/10800-icon-service-File.svg
+ac13ccb709e986d1ef8a64d382ee651c  ./analytics/03335-icon-service-Power-Platform.svg
+ac13ccb709e986d1ef8a64d382ee651c  ./integration/03335-icon-service-Power-Platform.svg
+ac13ccb709e986d1ef8a64d382ee651c  ./mobile/03335-icon-service-Power-Platform.svg
+ac13ccb709e986d1ef8a64d382ee651c  ./web/03335-icon-service-Power-Platform.svg
+ad243ddeab832de47e54b2ea70972a0a  ./identity/02680-icon-service-Entra-Identity-Custom-Roles.svg
+adbeb41efd471fd3d5a182cfe7929387  ./management + governance/10316-icon-service-Policy.svg
+ae17adefdad8ae0c3a306697bb86fd09  ./devops/03623-icon-service-Workspace-Gateway.svg
+ae272fdd9a4c8db10f28d19585d85431  ./networking/10069-icon-service-Public-IP-Addresses.svg
+aea4baa333da9e7c14dcbcde77a5467b  ./identity/03533-icon-service-Entra-Connect-Sync.svg
+aefb96b48d9ac68dd0ada5dabfa0e699  ./compute/00329-icon-service-Application-Group.svg
+af0b402c3b820dee5a4a780510ffd185  ./other/00412-icon-service-SSH-Keys.svg
+af854967e0fe636fec5f1326ccf45d1d  ./identity/10222-icon-service-Entra-Domain-Services.svg
+aff0f4b99ee064b6688ebf60853e0bc2  ./networking/03311-icon-service-Azure-Communications-Gateway.svg
+b009f5ab0be4fc7883d348bc3572b9ff  ./networking/02742-icon-service-Subnet.svg
+b09606eaba1402cabc188e791717c949  ./management + governance/10318-icon-service-Resource-Graph-Explorer.svg
+b0db688f92b8d406edbcd586a6067ac3  ./ai + machine learning/10165-icon-service-Bot-Services.svg
+b0ef265acebb40b5ec04fb1e2cfe90ab  ./other/02794-icon-service-Mobile-Networks.svg
+b14a227aa21e1fe5d264d250ad3e1439  ./general/10784-icon-service-Bug.svg
+b175b36f3c7808884734925194690aba  ./app services/00050-icon-service-App-Service-Domains.svg
+b175b36f3c7808884734925194690aba  ./web/00050-icon-service-App-Service-Domains.svg
+b19e49635ac15d03843de21ec4d05fb7  ./iot/01030-icon-service-Digital-Twins.svg
+b2fa7cc7f70b62c264b5eb0241129738  ./intune/10342-icon-service-Tenant-Status.svg
+b3cde1dabce22eab50aceb92b0958839  ./ai + machine learning/03438-icon-service-Azure-OpenAI.svg
+b3ff2afda75dafc64799ba05fe0779a3  ./other/02322-icon-service-Dedicated-HSM.svg
+b43c64e57f3ce6a75962b6cb07261bd6  ./other/02660-icon-service-MedTech-Service.svg
+b4619b321620c01efdf7274bcf8a835d  ./intune/10331-icon-service-Client-Apps.svg
+b47d1ecbeff642977a7829eea4d644fe  ./integration/02072-icon-service-Partner-Topic.svg
+b4a1084b5581825a59423f272ba10cdf  ./databases/10135-icon-service-Managed-Database.svg
+b526074470df73fa2200535305d9465b  ./hybrid + multicloud/03324-icon-service-Azure-Operator-Nexus.svg
+b647aabfdd88a392d0ba1dc854fc0196  ./general/10809-icon-service-Globe-Warning.svg
+b7136af6d86aa9294a20537cbc55f694  ./networking/02509-icon-service-Connected-Cache.svg
+b78aa8662797aa900e8fc474e37a9ca1  ./other/02323-icon-service-Modular-Data-Center.svg
+b78c48ceec888511d08bdd7abd717ff9  ./networking/10084-icon-service-Firewalls.svg
+b850876967e3b032e5b0e0a462f4593f  ./networking/10371-icon-service-Reserved-IP-Addresses-(Classic).svg
+b85bb719c821d1ae5a28561b6dc0959d  ./storage/10097-icon-service-Data-Share-Invitations.svg
+bae9b9f65f228cf0d24f97db8535518a  ./general/10006-icon-service-Recent.svg
+bb6f515417b961a785d45fa18f9fd422  ./other/02518-icon-service-Azure-HPC-Workbenches.svg
+bb9a494b3a54371db7dd22259228fd59  ./databases/10127-icon-service-Virtual-Clusters.svg
+bc0a26a8d5e2e57d9564353d5685d0b0  ./databases/10131-icon-service-Azure-Database-PostgreSQL-Server.svg
+bc2b27edd0d1b969cf627fdc6794467e  ./iot/03466-icon-service-Stack-HCI-Premium.svg
+bc727a498862405de8ecbaa900ee6727  ./iot/10198-icon-service-Time-Series-Data-Sets.svg
+bd292352e7d76612db6de000efc65853  ./new icons/034251-icon-service-external-id-modified.svg
+bdbe99423f91feed6473a16037a7372b  ./new icons/03687-icon-service-AI-at-Edge.svg
+be5ae6c515a880ef3037d368dbd7a956  ./new icons/029273094-icon-service-Edge-Actions.svg
+be5d7447d5e362553283f2ba249cbac8  ./ai + machine learning/00814-icon-service-Anomaly-Detector.svg
+be8386bae1e8193c964c41b4a618c84e  ./general/10827-icon-service-Feature-Previews.svg
+bee03c31d64e57ba8e000494026324bf  ./identity/00321-icon-service-Security.svg
+bf51e7714d022ea4fc8db65538a2be98  ./identity/03309-icon-service-Entra-Global-Secure-Access.svg
+bfaf4ccc94398dfbdaa75f1d27f1b557  ./other/02819-icon-service-Resource-Guard.svg
+bff41f3e5fe1bee872c220babdd810a7  ./containers/10105-icon-service-Container-Registries.svg
+bffeac7051dc6394d4247ff14c42f6d3  ./integration/00555-icon-service-Integration-Service-Environments.svg
+c12878e1c0227f8ca7652dc1e4e9a9f6  ./general/10001-icon-service-All-Resources.svg
+c2ed917c130b012a593b3574eb3655b6  ./app services/00046-icon-service-App-Service-Plans.svg
+c2ed917c130b012a593b3574eb3655b6  ./web/00046-icon-service-App-Service-Plans.svg
+c31a61884bc113870c407c2a484bcb26  ./azure stack/10111-icon-service-User-Subscriptions.svg
+c3d9f9214727b7c6991d8cb3c9dd8307  ./security/03336-icon-service-Microsoft-Defender-EASM.svg
+c41b490ecbc98fc7407536d7a6c46b0c  ./identity/02681-icon-service-Entra-Identity-Licenses.svg
+c41b490ecbc98fc7407536d7a6c46b0c  ./other/02681-icon-service-Entra-Identity-Licenses.svg
+c4d36a0d843f1fda668ccaa936eb2243  ./other/03528-icon-service-Monitor-Health-Models.svg
+c50a0c5f412f3b64a40d3140bd04dabd  ./networking/00272-icon-service-Azure-Firewall-Policy.svg
+c521f236ac383199958dba168c544502  ./compute/00398-icon-service-Disk-Encryption-Sets.svg
+c539ccb5d8264a2b37f0ffe952e6d1cb  ./iot/10186-icon-service-IoT-Edge.svg
+c56cfdb2765f95ea3c0f2d2a0963d4d6  ./storage/10092-icon-service-StorSimple-Data-Managers.svg
+c66331c1c50ea2785d8a5087127923b1  ./general/10848-icon-service-Website-Staging.svg
+c70f12b6e9e0774996bd8febb4858304  ./other/03420-icon-service-Defender-PLC.svg
+c86de4db8a21be6ca998a2e0f207f131  ./integration/02266-icon-service-Partner-Namespace.svg
+c89fbbf0c4de4152137d78d70f58a537  ./other/03251-icon-service-Azure-Deployment-Environments.svg
+c8fef60b0db9ba890257f33ab44aa3b7  ./other/00327-icon-service-Azure-Virtual-Desktop.svg
+c937252fd85f7fb4078b6e58799b060d  ./databases/02750-icon-service-Azure-SQL-Edge.svg
+c94ac6cb6e0b71532722b92421af9909  ./identity/10433-icon-service-User-Settings.svg
+c94ac6cb6e0b71532722b92421af9909  ./security/10433-icon-service-User-Settings.svg
+c987f9f0dc1d395d92130bbad1ed4a5e  ./management + governance/00024-icon-service-Operation-Log-(Classic).svg
+c9a313ef4cc54d84553191e7519a03ba  ./general/10841-icon-service-Table.svg
+c9d671d6728ece0fc51b2edc0ec68f98  ./ai + machine learning/10166-icon-service-Machine-Learning.svg
+ca0767d1e6e4569b80bda973c5d91af4  ./compute/10021-icon-service-Virtual-Machine.svg
+ca4412bdfbc9218e7c1b6cce337d8138  ./networking/10085-icon-service-Service-Endpoint-Policies.svg
+cb2bbfe1e7c873bb4b60facca71b811a  ./general/10349-icon-service-Resource-Explorer.svg
+cb750f409caaec02dd04786291e486b1  ./identity/10340-icon-service-Entra-Identity-Roles-and-Administrators.svg
+cb750f409caaec02dd04786291e486b1  ./intune/10340-icon-service-Entra-Identity-Roles-and-Administrators.svg
+cc1ced65e8d4d1d5740ce609231d77a5  ./other/10422-icon-service-AzureAttestation.svg
+ccec98d266ff72deee19a710d3715376  ./other/02360-icon-service-Azure-Backup-Center.svg
+cdbee8f5a53377b827c2a31a8f883805  ./general/10341-icon-service-Troubleshoot.svg
+ce4c794406949aac712300cc358971e5  ./management + governance/00020-icon-service-Metrics.svg
+ce4c794406949aac712300cc358971e5  ./monitor/00020-icon-service-Metrics.svg
+cf15b2c0b45f4d7d656634fe690a5f1a  ./monitor/10066-icon-service-Network-Watcher.svg
+cf15b2c0b45f4d7d656634fe690a5f1a  ./networking/10066-icon-service-Network-Watcher.svg
+cf5da9e73c720f66a43ef6f38ee48236  ./networking/02145-icon-service-Resource-Management-Private-Link.svg
+cfe4c80941a965d2bd404dbd3f174ba7  ./security/03340-icon-service-Identity-Secure-Score.svg
+d023935b1b419a84b0c4b85e3ba1d0f9  ./identity/10227-icon-service-Managed-Identities.svg
+d05a1a3d229d98048d5e208126bf0ebb  ./networking/01105-icon-service-Private-Link-Service.svg
+d0aa5d9b0b778716b3ae262cfd144329  ./other/10117-icon-service-Edge-Management.svg
+d111a670e2273d8da15e3a134b724c55  ./ai + machine learning/01688-icon-service-Azure-Object-Understanding.svg
+d1491e97c46032d5e6c1264bd31e7cc0  ./networking/10079-icon-service-ExpressRoute-Circuits.svg
+d14fa815a9f78fbc76b082ab657497c0  ./general/10005-icon-service-Information.svg
+d1e688ec1a9684648f3870bb1051c41d  ./other/03089-icon-service-Virtual-Instance-for-SAP.svg
+d2c0479b2f9c0339ef75213c2411641d  ./ai + machine learning/10168-icon-service-Machine-Learning-Studio-Web-Service-Plans.svg
+d2c0479b2f9c0339ef75213c2411641d  ./iot/10168-icon-service-Machine-Learning-Studio-Web-Service-Plans.svg
+d3ede0403546039aed837fe82ebb0faa  ./integration/10218-icon-service-Integration-Accounts.svg
+d429218d54c29c770a10be25f4c8f560  ./management + governance/00471-icon-service-Azure-Lighthouse.svg
+d445a37a9e095bc3a85af94d96b25549  ./other/00903-icon-service-ExpressRoute-Direct.svg
+d4fbc75287777448036d0ff07c2dd3f6  ./analytics/10145-icon-service-Azure-Data-Explorer-Clusters.svg
+d4fbc75287777448036d0ff07c2dd3f6  ./databases/10145-icon-service-Azure-Data-Explorer-Clusters.svg
+d5490e702f4953e313b79f8c1e5d59b7  ./analytics/02209-icon-service-Private-Link-Services.svg
+d5490e702f4953e313b79f8c1e5d59b7  ./networking/02209-icon-service-Private-Link-Services.svg
+d56ba7fc21ec48ded0072b11623fd76d  ./other/10846-icon-service-Web-Jobs.svg
+d592a99021fa50ed17c7102c14523159  ./other/00968-icon-service-Azure-Communication-Services.svg
+d592afe119a916578ad29bdb6834869a  ./networking/10076-icon-service-Application-Gateways.svg
+d597dbb1e0e7dbddb8ecdc28b365d4f8  ./general/10804-icon-service-FTP.svg
+d60da77cb7c6dac0c4dc5ac8a650e6e3  ./general/10842-icon-service-Tags.svg
+d71d67b3edbc2028487f2c6bbf00c59c  ./hybrid + multicloud/03585-icon-service-Azure-Monitor-Pipeline.svg
+d795aaed5fe66462650429b72db8f616  ./migrate/10094-icon-service-Data-Box.svg
+d795aaed5fe66462650429b72db8f616  ./storage/10094-icon-service-Data-Box.svg
+d831c98710c79e526fd838f8c9be221b  ./compute/10037-icon-service-Image-Definitions.svg
+d88062755a544cc26d455da82d66d642  ./identity/03225-icon-service-Verification-As-A-Service.svg
+d88a4550c06f0be183584f9d6e830292  ./devops/10042-icon-service-API-Management-Services.svg
+d88a4550c06f0be183584f9d6e830292  ./integration/10042-icon-service-API-Management-Services.svg
+d88a4550c06f0be183584f9d6e830292  ./web/10042-icon-service-API-Management-Services.svg
+d9868802177518ebfb3c928ba766a169  ./ai + machine learning/10162-icon-service-Cognitive-Services.svg
+d9868802177518ebfb3c928ba766a169  ./web/10162-icon-service-Cognitive-Services.svg
+da499f5853f7995578f815408fe26533  ./storage/10093-icon-service-Storage-Sync-Services.svg
+dab9c3f4115c4bd7acb921c2c3ff0dab  ./other/00469-icon-service-Internet-Analyzer-Profiles.svg
+db99c82d6fa1718efce72a2c62e7d656  ./other/00559-icon-service-Azure-Cloud-Shell.svg
+dba5ee8396b4439b331b45fe93ef1d23  ./general/10008-icon-service-Marketplace.svg
+dda46c4f72a11d305607030890c55122  ./other/02638-icon-service-Reserved-Capacity.svg
+ddbc769f1d271d33c513895ad9a14afa  ./integration/10212-icon-service-Azure-API-for-FHIR.svg
+de378d62b6acda29243ee07ba34a2f74  ./other/02663-icon-service-Managed-Instance-Apache-Cassandra.svg
+de422d167a2d5423d51773c6f0ab4cf9  ./general/10822-icon-service-Mobile.svg
+de4e64c47d950565ca779ebb5af0e684  ./intune/00399-icon-service-Device-Security-Google.svg
+dede5b9b0f9ca365b9187e90111cb42b  ./general/10840-icon-service-Storage-Queue.svg
+df007902697fe06ee790e2cb95fe62fd  ./app services/10045-icon-service-Notification-Hubs.svg
+df007902697fe06ee790e2cb95fe62fd  ./iot/10045-icon-service-Notification-Hubs.svg
+df007902697fe06ee790e2cb95fe62fd  ./mobile/10045-icon-service-Notification-Hubs.svg
+e0307899f426f3b6ef318d6637429a8b  ./analytics/00009-icon-service-Log-Analytics-Workspaces.svg
+e0307899f426f3b6ef318d6637429a8b  ./management + governance/00009-icon-service-Log-Analytics-Workspaces.svg
+e0307899f426f3b6ef318d6637429a8b  ./monitor/00009-icon-service-Log-Analytics-Workspaces.svg
+e0e59996c7478e3473d9b79017ee52b6  ./compute/10033-icon-service-Images.svg
+e0f982fadec6088141dac293c7ee916d  ./other/02806-icon-service-VM-App-Versions.svg
+e1266dbcb92ac7e1ac83fa7aa81170b0  ./compute/02370-icon-service-Managed-Service-Fabric.svg
+e17f6559e103abb779fe39543dad5daf  ./compute/10346-icon-service-Host-Groups.svg
+e2b2e4939e87e17d120d08c1dd0a99f3  ./other/02732-icon-service-Capacity-Reservation-Groups.svg
+e3048ece20a5c7be4bc70c87b05f0acb  ./other/02740-icon-service-Azure-Network-Function-Manager.svg
+e307333764d7c8832db465b89cad4e92  ./networking/03459-icon-service-DNS-Multistack.svg
+e33153609c0927d0fd72062ed18a06aa  ./compute/02112-icon-service-Automanaged-VM.svg
+e430f038b4284deccb98c7645811ed47  ./other/03416-icon-service-Defender-Industrial-Printer.svg
+e470f392cc9f68205f88f2ea7b332610  ./databases/10124-icon-service-Azure-SQL-VM.svg
+e4a4d22c0312bdcbfa563d56756ba836  ./databases/10139-icon-service-Instance-Pools.svg
+e4a4d22c0312bdcbfa563d56756ba836  ./other/10139-icon-service-Instance-Pools.svg
+e66ab21c3063fe676afb455ae1969e3f  ./devops/10261-icon-service-Azure-DevOps.svg
+e78b4770b4e36ed2bf5fa344531c45a3  ./compute/10370-icon-service-Azure-Spring-Apps.svg
+e78b4770b4e36ed2bf5fa344531c45a3  ./web/10370-icon-service-Azure-Spring-Apps.svg
+e79abd2ac86754b5d5a71d78e04fd32b  ./networking/10372-icon-service-Public-IP-Prefixes.svg
+e7fbc446158e6a3f5f66a733dcf69fbe  ./other/03137-icon-service-Express-Route-Traffic-Collector.svg
+e8cf34fb6796a791da69106d31c17843  ./ai + machine learning/03513-icon-service-AI-Studio.svg
+e95b1d4a32a58d4e7d5b982b619c51ce  ./other/01800-icon-service-Azure-Video-Indexer.svg
+e9e24be96c27dfee568c70f8dbc2480b  ./databases/10134-icon-service-SQL-Elastic-Pools.svg
+e9e83a626c2a11ccf3c9602fccc86db0  ./networking/02692-icon-service-Spot-VMSS.svg
+e9f909633b8022baa6dfbfd62753d682  ./other/03424-icon-service-Defender-RTU.svg
+ea454456d17d7481dfd3a91394a29404  ./general/10833-icon-service-Scheduler.svg
+eac86bf7a7d0602ae7452339029a2b3c  ./azure stack/10109-icon-service-Capacity.svg
+ec77122d11bea00debb6130d21dd4263  ./intune/00399-icon-service-Device-Security-Apple.svg
+ec833a266d9ab2e8052e9d44bbf0c613  ./hybrid + multicloud/03334-icon-service-Azure-Operator-Service-Manager.svg
+edb473aa2be9ee04c26a0c15e2c982c4  ./general/10112-icon-service-Marketplace-Management.svg
+ee1a79a256474058da68b832df0f87a1  ./ai + machine learning/03321-icon-service-Serverless-Search.svg
+ee1f89274592ca0e7b96c45c2432ff4e  ./databases/10128-icon-service-Elastic-Job-Agents.svg
+ee2b58174cdfe1bfd4fb6456ded31efb  ./other/02944-icon-service-Azure-Load-Testing.svg
+ee4ee5dc9b15c4fc6f9820bbca301110  ./general/10826-icon-service-Power-Up.svg
+efd2b3bdbcbc7272d4c1e2a4b8d30245  ./networking/02695-icon-service-Spot-VM.svg
+f08e486cc75d46c3ffe436a6270af29a  ./other/02356-icon-service-Arc-Data-services.svg
+f0b1fd0e77dfb66f478fb08e2443e0dc  ./other/10190-icon-service-Azure-Sphere.svg
+f10b7b5b76a428fe0479f1410bd9424c  ./analytics/02189-icon-service-Azure-Workbooks.svg
+f10b7b5b76a428fe0479f1410bd9424c  ./monitor/02189-icon-service-Azure-Workbooks.svg
+f17a0d863176b638a27ad1ecbd15b830  ./databases/02390-icon-service-Azure-SQL.svg
+f1d3890ba07e64f9b9f6eeb82c88aed2  ./ai + machine learning/00792-icon-service-Computer-Vision.svg
+f2a9612037ed43c119aa6430988d2d10  ./general/10785-icon-service-Builds.svg
+f38911f8b78bc5861d55c06ed2564c0e  ./general/10779-icon-service-Biz-Talk.svg
+f59ffec1a8802adcac30d8b09d53f84e  ./general/10816-icon-service-Learn.svg
+f5b4ebb2972fb6576d9735bf9cdc815c  ./general/10839-icon-service-Storage-Container.svg
+f60c497c2adcc55e78834f3b6eead14e  ./other/03409-icon-service-Defender-Sensor.svg
+f6388e23ff128a5d81cdbb20045310d7  ./devops/10048-icon-service-API-Connections.svg
+f6388e23ff128a5d81cdbb20045310d7  ./integration/10048-icon-service-API-Connections.svg
+f6388e23ff128a5d81cdbb20045310d7  ./web/10048-icon-service-API-Connections.svg
+f67db23876a6ff867fd1cea316b3653b  ./general/10825-icon-service-Powershell.svg
+f6cd9fb9aacd47ae4d2a3b638c7a7872  ./analytics/10787-icon-service-Azure-Databricks.svg
+f72b93e099caaa6c28ccb92df5b8c885  ./networking/10077-icon-service-Local-Network-Gateways.svg
+f72b93e099caaa6c28ccb92df5b8c885  ./other/10077-icon-service-Local-Network-Gateways.svg
+f73a339ef4c02d9bd7c6a4152a4d67a9  ./new icons/03425-icon-service-external-id.svg
+f750c19ea9cbf1a7c7bb0d0cceb6c92a  ./web/10052-icon-service-SignalR.svg
+f7bb0218937b295d18cab6db6f100774  ./identity/03338-icon-service-External-Identities.svg
+f7ea6e513500bae0da64fc701d0775fe  ./new icons/03521-icon-service-Edge-Storage-Accelerator.svg
+f7f12f31ee4281b0c32b0d5a618e94c6  ./general/10014-icon-service-Tag.svg
+fa009d1787f1e03c7c47527a44e4a111  ./web/01007-icon-service-Static-Apps.svg
+faaef45200ca51d723d90d1b35aa9481  ./other/02625-icon-service-Aquila.svg
+fbce8034189756758991a4998cdfb1a4  ./containers/03331-icon-service-Azure-Red-Hat-OpenShift.svg
+fbdb80f567d41701bed7e690a8cd3534  ./general/10010-icon-service-Quickstart-Center.svg
+fc0b9b29fef39f84d0aa539bdb79f56a  ./databases/02827-icon-service-Azure-Database-PostgreSQL-Server-Group.svg
+fcd86a727c64790567d7b2a9fe8fd9b3  ./management + governance/00408-icon-service-Intune-Trends.svg
+fcec714d4ce533ec8fdbd88cd65c326b  ./other/03090-icon-service-Azure-Center-for-SAP.svg
+fd0eae174ee697b5a7c6a0b836273b83  ./general/10818-icon-service-Location.svg
+fd417529bf4f456db93df1befc3caa03  ./new icons/03633-icon-service-Breeze.svg
+fd5a6e7e956a05a9828397c97db1d3a4  ./menu/00787-icon-service-Keys.svg
+fd761810fd305025f85217be3aa5d8fd  ./compute/10031-icon-service-Batch-Accounts.svg
+fd761810fd305025f85217be3aa5d8fd  ./containers/10031-icon-service-Batch-Accounts.svg
+fd9f04e728b607c8959198985724bd33  ./compute/02818-icon-service-Restore-Points-Collections.svg
+fe0be6f99938761ed7ae5666caf3794b  ./security/10248-icon-service-Azure-Sentinel.svg
+fe529392f5565b2c8701e00687c76455  ./general/10821-icon-service-Media-File.svg
+feb636f649d0d3cec7d94fa45bb509e7  ./management + governance/00022-icon-service-Automation-Accounts.svg
+fedccf1ff8709c717337d5a60b65749a  ./new icons/03694-icon-service-VPNClientWindows.svg
+ff0727ec163a0a8ee6e76badc149f78e  ./management + governance/10314-icon-service-Customer-Lockbox-for-Microsoft-Azure.svg
+ff52843c9375bf0e0d916498e12b3e58  ./networking/10064-icon-service-DNS-Zones.svg
+ff6cbe7712216da38b8d5cff4c5176be  ./general/10786-icon-service-Cache.svg
