@@ -42,11 +42,39 @@
     "relativePath": "icons/management + governance/00003-icon-service-Advisor.svg"
   },
   {
+    "id": "034296882-icon-service-Agentic-Web-Apps",
+    "name": "Agentic Web Apps",
+    "category": "new icons",
+    "fileName": "034296882-icon-service-Agentic-Web-Apps.svg",
+    "relativePath": "icons/new icons/034296882-icon-service-Agentic-Web-Apps.svg"
+  },
+  {
+    "id": "03687-icon-service-AI-at-Edge",
+    "name": "AI At Edge",
+    "category": "hybrid + multicloud",
+    "fileName": "03687-icon-service-AI-at-Edge.svg",
+    "relativePath": "icons/hybrid + multicloud/03687-icon-service-AI-at-Edge.svg"
+  },
+  {
     "id": "03687-icon-service-AI-at-Edge",
     "name": "AI At Edge",
     "category": "new icons",
     "fileName": "03687-icon-service-AI-at-Edge.svg",
     "relativePath": "icons/new icons/03687-icon-service-AI-at-Edge.svg"
+  },
+  {
+    "id": "035746832-icon-service-AI-Foundry",
+    "name": "AI Foundry",
+    "category": "ai + machine learning",
+    "fileName": "035746832-icon-service-AI-Foundry.svg",
+    "relativePath": "icons/ai + machine learning/035746832-icon-service-AI-Foundry.svg"
+  },
+  {
+    "id": "037838045-icon-service-AI-Gateway",
+    "name": "AI Gateway",
+    "category": "new icons",
+    "fileName": "037838045-icon-service-AI-Gateway.svg",
+    "relativePath": "icons/new icons/037838045-icon-service-AI-Gateway.svg"
   },
   {
     "id": "03513-icon-service-AI-Studio",
@@ -68,6 +96,13 @@
     "category": "other",
     "fileName": "03399-icon-service-AKS-Istio.svg",
     "relativePath": "icons/other/03399-icon-service-AKS-Istio.svg"
+  },
+  {
+    "id": "032487601-icon-service-AKS-Network-Policy",
+    "name": "AKS Network Policy",
+    "category": "containers",
+    "fileName": "032487601-icon-service-AKS-Network-Policy.svg",
+    "relativePath": "icons/containers/032487601-icon-service-AKS-Network-Policy.svg"
   },
   {
     "id": "00002-icon-service-Alerts",
@@ -359,6 +394,13 @@
   {
     "id": "01088-icon-service-Arc-Kubernetes",
     "name": "Arc Kubernetes",
+    "category": "hybrid + multicloud",
+    "fileName": "01088-icon-service-Arc-Kubernetes.svg",
+    "relativePath": "icons/hybrid + multicloud/01088-icon-service-Arc-Kubernetes.svg"
+  },
+  {
+    "id": "01088-icon-service-Arc-Kubernetes",
+    "name": "Arc Kubernetes",
     "category": "other",
     "fileName": "01088-icon-service-Arc-Kubernetes.svg",
     "relativePath": "icons/other/01088-icon-service-Arc-Kubernetes.svg"
@@ -441,6 +483,13 @@
     "relativePath": "icons/other/10018-icon-service-Azure-A.svg"
   },
   {
+    "id": "031193085-icon-service-Azure-Access-Point",
+    "name": "Azure Access Point",
+    "category": "new icons",
+    "fileName": "031193085-icon-service-Azure-Access-Point.svg",
+    "relativePath": "icons/new icons/031193085-icon-service-Azure-Access-Point.svg"
+  },
+  {
     "id": "10228-icon-service-Azure-AD-B2C",
     "name": "Azure AD B2C",
     "category": "identity",
@@ -448,11 +497,25 @@
     "relativePath": "icons/identity/10228-icon-service-Azure-AD-B2C.svg"
   },
   {
+    "id": "038470497-icon-service-Azure-AI-Foundry-IQ",
+    "name": "Azure AI Foundry IQ",
+    "category": "ai + machine learning",
+    "fileName": "038470497-icon-service-Azure-AI-Foundry-IQ.svg",
+    "relativePath": "icons/ai + machine learning/038470497-icon-service-Azure-AI-Foundry-IQ.svg"
+  },
+  {
     "id": "10212-icon-service-Azure-API-for-FHIR",
     "name": "Azure API For FHIR",
     "category": "integration",
     "fileName": "10212-icon-service-Azure-API-for-FHIR.svg",
     "relativePath": "icons/integration/10212-icon-service-Azure-API-for-FHIR.svg"
+  },
+  {
+    "id": "033805167-icon-service-Azure-App-Testing",
+    "name": "Azure App Testing",
+    "category": "developer tools",
+    "fileName": "033805167-icon-service-Azure-App-Testing.svg",
+    "relativePath": "icons/developer tools/033805167-icon-service-Azure-App-Testing.svg"
   },
   {
     "id": "02749-icon-service-Azure-Applied-AI-Services",
@@ -539,6 +602,20 @@
     "relativePath": "icons/new icons/03495-icon-service-Azure-Consumption-Commitment.svg"
   },
   {
+    "id": "03495-icon-service-Azure-Consumption-Commitment",
+    "name": "Azure Consumption Commitment",
+    "category": "other",
+    "fileName": "03495-icon-service-Azure-Consumption-Commitment.svg",
+    "relativePath": "icons/other/03495-icon-service-Azure-Consumption-Commitment.svg"
+  },
+  {
+    "id": "03401-icon-service-Azure-Container-Storage",
+    "name": "Azure Container Storage",
+    "category": "containers",
+    "fileName": "03401-icon-service-Azure-Container-Storage.svg",
+    "relativePath": "icons/containers/03401-icon-service-Azure-Container-Storage.svg"
+  },
+  {
     "id": "10121-icon-service-Azure-Cosmos-DB",
     "name": "Azure Cosmos DB",
     "category": "databases",
@@ -572,6 +649,20 @@
     "category": "databases",
     "fileName": "10145-icon-service-Azure-Data-Explorer-Clusters.svg",
     "relativePath": "icons/databases/10145-icon-service-Azure-Data-Explorer-Clusters.svg"
+  },
+  {
+    "id": "035824068-icon-service-Azure-Data-Sharing",
+    "name": "Azure Data Sharing",
+    "category": "new icons",
+    "fileName": "035824068-icon-service-Azure-Data-Sharing.svg",
+    "relativePath": "icons/new icons/035824068-icon-service-Azure-Data-Sharing.svg"
+  },
+  {
+    "id": "033740592-icon-service-Azure-Data-Transfer",
+    "name": "Azure Data Transfer",
+    "category": "new icons",
+    "fileName": "033740592-icon-service-Azure-Data-Transfer.svg",
+    "relativePath": "icons/new icons/033740592-icon-service-Azure-Data-Transfer.svg"
   },
   {
     "id": "10123-icon-service-Azure-Database-MariaDB-Server",
@@ -672,11 +763,25 @@
     "relativePath": "icons/devops/10261-icon-service-Azure-DevOps.svg"
   },
   {
+    "id": "035656437-icon-service-Azure-DocumentDB",
+    "name": "Azure DocumentDB",
+    "category": "databases",
+    "fileName": "035656437-icon-service-Azure-DocumentDB.svg",
+    "relativePath": "icons/databases/035656437-icon-service-Azure-DocumentDB.svg"
+  },
+  {
     "id": "02810-icon-service-Azure-Edge-Hardware-Center",
     "name": "Azure Edge Hardware Center",
     "category": "other",
     "fileName": "02810-icon-service-Azure-Edge-Hardware-Center.svg",
     "relativePath": "icons/other/02810-icon-service-Azure-Edge-Hardware-Center.svg"
+  },
+  {
+    "id": "03394-icon-service-Azure-Enclaves",
+    "name": "Azure Enclaves",
+    "category": "other",
+    "fileName": "03394-icon-service-Azure-Enclaves.svg",
+    "relativePath": "icons/other/03394-icon-service-Azure-Enclaves.svg"
   },
   {
     "id": "01239-icon-service-Azure-Experimentation-Studio",
@@ -756,6 +861,13 @@
     "relativePath": "icons/management + governance/00471-icon-service-Azure-Lighthouse.svg"
   },
   {
+    "id": "03645-icon-service-Azure-Linux",
+    "name": "Azure Linux",
+    "category": "compute",
+    "fileName": "03645-icon-service-Azure-Linux.svg",
+    "relativePath": "icons/compute/03645-icon-service-Azure-Linux.svg"
+  },
+  {
     "id": "02944-icon-service-Azure-Load-Testing",
     "name": "Azure Load Testing",
     "category": "other",
@@ -763,11 +875,32 @@
     "relativePath": "icons/other/02944-icon-service-Azure-Load-Testing.svg"
   },
   {
+    "id": "033745116-icon-service-Azure-Local",
+    "name": "Azure Local",
+    "category": "hybrid + multicloud",
+    "fileName": "033745116-icon-service-Azure-Local.svg",
+    "relativePath": "icons/hybrid + multicloud/033745116-icon-service-Azure-Local.svg"
+  },
+  {
+    "id": "038470510-icon-service-Azure-Machine-Learning",
+    "name": "Azure Machine Learning",
+    "category": "ai + machine learning",
+    "fileName": "038470510-icon-service-Azure-Machine-Learning.svg",
+    "relativePath": "icons/ai + machine learning/038470510-icon-service-Azure-Machine-Learning.svg"
+  },
+  {
     "id": "02905-icon-service-Azure-Managed-Grafana",
     "name": "Azure Managed Grafana",
     "category": "other",
     "fileName": "02905-icon-service-Azure-Managed-Grafana.svg",
     "relativePath": "icons/other/02905-icon-service-Azure-Managed-Grafana.svg"
+  },
+  {
+    "id": "03675-icon-service-Azure-Managed-Redis",
+    "name": "Azure Managed Redis",
+    "category": "databases",
+    "fileName": "03675-icon-service-Azure-Managed-Redis.svg",
+    "relativePath": "icons/databases/03675-icon-service-Azure-Managed-Redis.svg"
   },
   {
     "id": "03675-icon-service-Azure-Managed-Redis",
@@ -1223,6 +1356,13 @@
     "category": "new icons",
     "fileName": "03633-icon-service-Breeze.svg",
     "relativePath": "icons/new icons/03633-icon-service-Breeze.svg"
+  },
+  {
+    "id": "03633-icon-service-Breeze",
+    "name": "Breeze",
+    "category": "other",
+    "fileName": "03633-icon-service-Breeze.svg",
+    "relativePath": "icons/other/03633-icon-service-Breeze.svg"
   },
   {
     "id": "10783-icon-service-Browser",
@@ -1750,11 +1890,25 @@
     "relativePath": "icons/new icons/029203566-icon-service-Data-Virtualization.svg"
   },
   {
+    "id": "029203566-icon-service-Data-Virtualization",
+    "name": "Data Virtualization",
+    "category": "storage",
+    "fileName": "029203566-icon-service-Data-Virtualization.svg",
+    "relativePath": "icons/storage/029203566-icon-service-Data-Virtualization.svg"
+  },
+  {
     "id": "03175-icon-service-Database-Instance-For-SAP",
     "name": "Database Instance For SAP",
     "category": "other",
     "fileName": "03175-icon-service-Database-Instance-For-SAP.svg",
     "relativePath": "icons/other/03175-icon-service-Database-Instance-For-SAP.svg"
+  },
+  {
+    "id": "035556610-icon-service-DDoS-Custom-Policy",
+    "name": "DDoS Custom Policy",
+    "category": "new icons",
+    "fileName": "035556610-icon-service-DDoS-Custom-Policy.svg",
+    "relativePath": "icons/new icons/035556610-icon-service-DDoS-Custom-Policy.svg"
   },
   {
     "id": "10072-icon-service-DDoS-Protection-Plans",
@@ -2044,6 +2198,13 @@
     "relativePath": "icons/iot/01030-icon-service-Digital-Twins.svg"
   },
   {
+    "id": "035712231-icon-service-Disconnected-Operations",
+    "name": "Disconnected Operations",
+    "category": "new icons",
+    "fileName": "035712231-icon-service-Disconnected-Operations.svg",
+    "relativePath": "icons/new icons/035712231-icon-service-Disconnected-Operations.svg"
+  },
+  {
     "id": "00398-icon-service-Disk-Encryption-Sets",
     "name": "Disk Encryption Sets",
     "category": "compute",
@@ -2123,6 +2284,13 @@
   {
     "id": "029273094-icon-service-Edge-Actions",
     "name": "Edge Actions",
+    "category": "networking",
+    "fileName": "029273094-icon-service-Edge-Actions.svg",
+    "relativePath": "icons/networking/029273094-icon-service-Edge-Actions.svg"
+  },
+  {
+    "id": "029273094-icon-service-Edge-Actions",
+    "name": "Edge Actions",
     "category": "new icons",
     "fileName": "029273094-icon-service-Edge-Actions.svg",
     "relativePath": "icons/new icons/029273094-icon-service-Edge-Actions.svg"
@@ -2133,6 +2301,13 @@
     "category": "other",
     "fileName": "10117-icon-service-Edge-Management.svg",
     "relativePath": "icons/other/10117-icon-service-Edge-Management.svg"
+  },
+  {
+    "id": "03521-icon-service-Edge-Storage-Accelerator",
+    "name": "Edge Storage Accelerator",
+    "category": "hybrid + multicloud",
+    "fileName": "03521-icon-service-Edge-Storage-Accelerator.svg",
+    "relativePath": "icons/hybrid + multicloud/03521-icon-service-Edge-Storage-Accelerator.svg"
   },
   {
     "id": "03521-icon-service-Edge-Storage-Accelerator",
@@ -2168,6 +2343,13 @@
     "category": "analytics",
     "fileName": "00562-icon-service-Endpoint-Analytics.svg",
     "relativePath": "icons/analytics/00562-icon-service-Endpoint-Analytics.svg"
+  },
+  {
+    "id": "029797391-icon-service-Engage-Center-Connect",
+    "name": "Engage Center Connect",
+    "category": "intune",
+    "fileName": "029797391-icon-service-Engage-Center-Connect.svg",
+    "relativePath": "icons/intune/029797391-icon-service-Engage-Center-Connect.svg"
   },
   {
     "id": "029797391-icon-service-Engage-Center-Connect",
@@ -2424,9 +2606,23 @@
   {
     "id": "03425-icon-service-external-id",
     "name": "External Id",
+    "category": "identity",
+    "fileName": "03425-icon-service-external-id.svg",
+    "relativePath": "icons/identity/03425-icon-service-external-id.svg"
+  },
+  {
+    "id": "03425-icon-service-external-id",
+    "name": "External Id",
     "category": "new icons",
     "fileName": "03425-icon-service-external-id.svg",
     "relativePath": "icons/new icons/03425-icon-service-external-id.svg"
+  },
+  {
+    "id": "034251-icon-service-external-id-modified",
+    "name": "External Id Modified",
+    "category": "identity",
+    "fileName": "034251-icon-service-external-id-modified.svg",
+    "relativePath": "icons/identity/034251-icon-service-external-id-modified.svg"
   },
   {
     "id": "034251-icon-service-external-id-modified",
@@ -2511,6 +2707,62 @@
     "category": "ai + machine learning",
     "fileName": "00819-icon-service-Form-Recognizers.svg",
     "relativePath": "icons/ai + machine learning/00819-icon-service-Form-Recognizers.svg"
+  },
+  {
+    "id": "038470523-icon-service-Foundry-Agent-Service",
+    "name": "Foundry Agent Service",
+    "category": "ai + machine learning",
+    "fileName": "038470523-icon-service-Foundry-Agent-Service.svg",
+    "relativePath": "icons/ai + machine learning/038470523-icon-service-Foundry-Agent-Service.svg"
+  },
+  {
+    "id": "036509374-icon-service-Foundry-Application",
+    "name": "Foundry Application",
+    "category": "ai + machine learning",
+    "fileName": "036509374-icon-service-Foundry-Application.svg",
+    "relativePath": "icons/ai + machine learning/036509374-icon-service-Foundry-Application.svg"
+  },
+  {
+    "id": "038470534-icon-service-Foundry-Control-Plane",
+    "name": "Foundry Control Plane",
+    "category": "ai + machine learning",
+    "fileName": "038470534-icon-service-Foundry-Control-Plane.svg",
+    "relativePath": "icons/ai + machine learning/038470534-icon-service-Foundry-Control-Plane.svg"
+  },
+  {
+    "id": "038470555-icon-service-Foundry-Labs",
+    "name": "Foundry Labs",
+    "category": "ai + machine learning",
+    "fileName": "038470555-icon-service-Foundry-Labs.svg",
+    "relativePath": "icons/ai + machine learning/038470555-icon-service-Foundry-Labs.svg"
+  },
+  {
+    "id": "038470593-icon-service-Foundry-Local",
+    "name": "Foundry Local",
+    "category": "ai + machine learning",
+    "fileName": "038470593-icon-service-Foundry-Local.svg",
+    "relativePath": "icons/ai + machine learning/038470593-icon-service-Foundry-Local.svg"
+  },
+  {
+    "id": "038470614-icon-service-Foundry-Models",
+    "name": "Foundry Models",
+    "category": "ai + machine learning",
+    "fileName": "038470614-icon-service-Foundry-Models.svg",
+    "relativePath": "icons/ai + machine learning/038470614-icon-service-Foundry-Models.svg"
+  },
+  {
+    "id": "036509415-icon-service-Foundry-Project",
+    "name": "Foundry Project",
+    "category": "ai + machine learning",
+    "fileName": "036509415-icon-service-Foundry-Project.svg",
+    "relativePath": "icons/ai + machine learning/036509415-icon-service-Foundry-Project.svg"
+  },
+  {
+    "id": "029455661-icon-service-FRD-QA",
+    "name": "FRD QA",
+    "category": "ai + machine learning",
+    "fileName": "029455661-icon-service-FRD-QA.svg",
+    "relativePath": "icons/ai + machine learning/029455661-icon-service-FRD-QA.svg"
   },
   {
     "id": "029455661-icon-service-FRD-QA",
@@ -2665,6 +2917,13 @@
     "category": "compute",
     "fileName": "10347-icon-service-Hosts.svg",
     "relativePath": "icons/compute/10347-icon-service-Hosts.svg"
+  },
+  {
+    "id": "03656-icon-service-Hybrid-Connectivity-Hub",
+    "name": "Hybrid Connectivity Hub",
+    "category": "iot",
+    "fileName": "03656-icon-service-Hybrid-Connectivity-Hub.svg",
+    "relativePath": "icons/iot/03656-icon-service-Hybrid-Connectivity-Hub.svg"
   },
   {
     "id": "03361-icon-service-IcM-Troubleshooting",
@@ -2898,6 +3157,13 @@
     "relativePath": "icons/other/03134-icon-service-Kubernetes-Fleet-Manager.svg"
   },
   {
+    "id": "033545113-icon-service-Kubernetes-Hub",
+    "name": "Kubernetes Hub",
+    "category": "containers",
+    "fileName": "033545113-icon-service-Kubernetes-Hub.svg",
+    "relativePath": "icons/containers/033545113-icon-service-Kubernetes-Hub.svg"
+  },
+  {
     "id": "10023-icon-service-Kubernetes-Services",
     "name": "Kubernetes Services",
     "category": "compute",
@@ -2966,6 +3232,13 @@
     "category": "networking",
     "fileName": "02302-icon-service-Load-Balancer-Hub.svg",
     "relativePath": "icons/networking/02302-icon-service-Load-Balancer-Hub.svg"
+  },
+  {
+    "id": "029029174-icon-service-Load-Balancer-Hub",
+    "name": "Load Balancer Hub",
+    "category": "networking",
+    "fileName": "029029174-icon-service-Load-Balancer-Hub.svg",
+    "relativePath": "icons/networking/029029174-icon-service-Load-Balancer-Hub.svg"
   },
   {
     "id": "10062-icon-service-Load-Balancers",
@@ -3064,6 +3337,13 @@
     "category": "integration",
     "fileName": "10363-icon-service-Logic-Apps-Custom-Connector.svg",
     "relativePath": "icons/integration/10363-icon-service-Logic-Apps-Custom-Connector.svg"
+  },
+  {
+    "id": "032130874-icon-service-Logic-Apps-Template",
+    "name": "Logic Apps Template",
+    "category": "integration",
+    "fileName": "032130874-icon-service-Logic-Apps-Template.svg",
+    "relativePath": "icons/integration/032130874-icon-service-Logic-Apps-Template.svg"
   },
   {
     "id": "10166-icon-service-Machine-Learning",
@@ -3297,6 +3577,20 @@
     "relativePath": "icons/other/03250-icon-service-Microsoft-Dev-Box.svg"
   },
   {
+    "id": "032869111-icon-service-Microsoft-Discovery",
+    "name": "Microsoft Discovery",
+    "category": "other",
+    "fileName": "032869111-icon-service-Microsoft-Discovery.svg",
+    "relativePath": "icons/other/032869111-icon-service-Microsoft-Discovery.svg"
+  },
+  {
+    "id": "Microsoft-Fabric",
+    "name": "Microsoft Fabric",
+    "category": "analytics",
+    "fileName": "Microsoft-Fabric.svg",
+    "relativePath": "icons/analytics/Microsoft-Fabric.svg"
+  },
+  {
     "id": "10350-icon-service-Mindaro",
     "name": "Mindaro",
     "category": "intune",
@@ -3381,6 +3675,13 @@
     "relativePath": "icons/azure stack/00965-icon-service-Multi-Tenancy.svg"
   },
   {
+    "id": "00965-icon-service-Multi-Tenancy",
+    "name": "Multi Tenancy",
+    "category": "identity",
+    "fileName": "00965-icon-service-Multi-Tenancy.svg",
+    "relativePath": "icons/identity/00965-icon-service-Multi-Tenancy.svg"
+  },
+  {
     "id": "03344-icon-service-Multifactor-Authentication",
     "name": "Multifactor Authentication",
     "category": "security",
@@ -3402,6 +3703,13 @@
     "relativePath": "icons/networking/10310-icon-service-NAT.svg"
   },
   {
+    "id": "03643-icon-service-Network-Foundation-Hub",
+    "name": "Network Foundation Hub",
+    "category": "networking",
+    "fileName": "03643-icon-service-Network-Foundation-Hub.svg",
+    "relativePath": "icons/networking/03643-icon-service-Network-Foundation-Hub.svg"
+  },
+  {
     "id": "10080-icon-service-Network-Interfaces",
     "name": "Network Interfaces",
     "category": "networking",
@@ -3421,6 +3729,13 @@
     "category": "networking",
     "fileName": "10067-icon-service-Network-Security-Groups.svg",
     "relativePath": "icons/networking/10067-icon-service-Network-Security-Groups.svg"
+  },
+  {
+    "id": "03650-icon-service-Network-Security-Hub",
+    "name": "Network Security Hub",
+    "category": "networking",
+    "fileName": "03650-icon-service-Network-Security-Hub.svg",
+    "relativePath": "icons/networking/03650-icon-service-Network-Security-Hub.svg"
   },
   {
     "id": "02939-icon-service-Network-Security-Perimeters",
@@ -3577,6 +3892,13 @@
     "relativePath": "icons/ai + machine learning/00796-icon-service-Personalizers.svg"
   },
   {
+    "id": "03755-icon-service-Planetary-Computer-Pro",
+    "name": "Planetary Computer Pro",
+    "category": "ai + machine learning",
+    "fileName": "03755-icon-service-Planetary-Computer-Pro.svg",
+    "relativePath": "icons/ai + machine learning/03755-icon-service-Planetary-Computer-Pro.svg"
+  },
+  {
     "id": "10113-icon-service-Plans",
     "name": "Plans",
     "category": "azure stack",
@@ -3703,6 +4025,13 @@
     "relativePath": "icons/general/10829-icon-service-Production-Ready-Database.svg"
   },
   {
+    "id": "033112809-icon-service-promethus",
+    "name": "Promethus",
+    "category": "other",
+    "fileName": "033112809-icon-service-promethus.svg",
+    "relativePath": "icons/other/033112809-icon-service-promethus.svg"
+  },
+  {
     "id": "10365-icon-service-Proximity-Placement-Groups",
     "name": "Proximity Placement Groups",
     "category": "networking",
@@ -3729,6 +4058,13 @@
     "category": "networking",
     "fileName": "10372-icon-service-Public-IP-Prefixes.svg",
     "relativePath": "icons/networking/10372-icon-service-Public-IP-Prefixes.svg"
+  },
+  {
+    "id": "02987-icon-service-pubsub",
+    "name": "Pubsub",
+    "category": "integration",
+    "fileName": "02987-icon-service-pubsub.svg",
+    "relativePath": "icons/integration/02987-icon-service-pubsub.svg"
   },
   {
     "id": "00799-icon-service-QnA-Makers",
@@ -3813,6 +4149,13 @@
     "category": "networking",
     "fileName": "10371-icon-service-Reserved-IP-Addresses-(Classic).svg",
     "relativePath": "icons/networking/10371-icon-service-Reserved-IP-Addresses-(Classic).svg"
+  },
+  {
+    "id": "034923704-icon-service-Resiliency",
+    "name": "Resiliency",
+    "category": "new icons",
+    "fileName": "034923704-icon-service-Resiliency.svg",
+    "relativePath": "icons/new icons/034923704-icon-service-Resiliency.svg"
   },
   {
     "id": "10349-icon-service-Resource-Explorer",
@@ -3920,6 +4263,13 @@
     "relativePath": "icons/other/02880-icon-service-Savings-Plans.svg"
   },
   {
+    "id": "033049334-icon-service-Scheduled-Actions",
+    "name": "Scheduled Actions",
+    "category": "compute",
+    "fileName": "033049334-icon-service-Scheduled-Actions.svg",
+    "relativePath": "icons/compute/033049334-icon-service-Scheduled-Actions.svg"
+  },
+  {
     "id": "10833-icon-service-Scheduler",
     "name": "Scheduler",
     "category": "general",
@@ -4016,6 +4366,27 @@
     "category": "containers",
     "fileName": "10036-icon-service-Service-Fabric-Clusters.svg",
     "relativePath": "icons/containers/10036-icon-service-Service-Fabric-Clusters.svg"
+  },
+  {
+    "id": "030777508-icon-service-Service-Group-Relationships",
+    "name": "Service Group Relationships",
+    "category": "management + governance",
+    "fileName": "030777508-icon-service-Service-Group-Relationships.svg",
+    "relativePath": "icons/management + governance/030777508-icon-service-Service-Group-Relationships.svg"
+  },
+  {
+    "id": "030777508 -icon-service-Service-Group-Relationships",
+    "name": "Service Group Relationships",
+    "category": "new icons",
+    "fileName": "030777508 -icon-service-Service-Group-Relationships.svg",
+    "relativePath": "icons/new icons/030777508 -icon-service-Service-Group-Relationships.svg"
+  },
+  {
+    "id": "029637767-icon-service-Service-Groups",
+    "name": "Service Groups",
+    "category": "containers",
+    "fileName": "029637767-icon-service-Service-Groups.svg",
+    "relativePath": "icons/containers/029637767-icon-service-Service-Groups.svg"
   },
   {
     "id": "10004-icon-service-Service-Health",
@@ -4125,6 +4496,13 @@
   {
     "id": "03565-icon-service-SQL-Database-Fleet-Manager",
     "name": "SQL Database Fleet Manager",
+    "category": "databases",
+    "fileName": "03565-icon-service-SQL-Database-Fleet-Manager.svg",
+    "relativePath": "icons/databases/03565-icon-service-SQL-Database-Fleet-Manager.svg"
+  },
+  {
+    "id": "03565-icon-service-SQL-Database-Fleet-Manager",
+    "name": "SQL Database Fleet Manager",
     "category": "new icons",
     "fileName": "03565-icon-service-SQL-Database-Fleet-Manager.svg",
     "relativePath": "icons/new icons/03565-icon-service-SQL-Database-Fleet-Manager.svg"
@@ -4186,6 +4564,13 @@
     "relativePath": "icons/iot/03466-icon-service-Stack-HCI-Premium.svg"
   },
   {
+    "id": "030868929-icon-service-Stage-Maps",
+    "name": "Stage Maps",
+    "category": "compute",
+    "fileName": "030868929-icon-service-Stage-Maps.svg",
+    "relativePath": "icons/compute/030868929-icon-service-Stage-Maps.svg"
+  },
+  {
     "id": "01007-icon-service-Static-Apps",
     "name": "Static Apps",
     "category": "web",
@@ -4240,6 +4625,13 @@
     "category": "other",
     "fileName": "02909-icon-service-Storage-Functions.svg",
     "relativePath": "icons/other/02909-icon-service-Storage-Functions.svg"
+  },
+  {
+    "id": "030486388-icon-service-Storage-Hubs",
+    "name": "Storage Hubs",
+    "category": "storage",
+    "fileName": "030486388-icon-service-Storage-Hubs.svg",
+    "relativePath": "icons/storage/030486388-icon-service-Storage-Hubs.svg"
   },
   {
     "id": "10840-icon-service-Storage-Queue",
@@ -4494,6 +4886,13 @@
     "relativePath": "icons/azure stack/10111-icon-service-User-Subscriptions.svg"
   },
   {
+    "id": "10111-icon-service-User-Subscriptions",
+    "name": "User Subscriptions",
+    "category": "identity",
+    "fileName": "10111-icon-service-User-Subscriptions.svg",
+    "relativePath": "icons/identity/10111-icon-service-User-Subscriptions.svg"
+  },
+  {
     "id": "10230-icon-service-Users",
     "name": "Users",
     "category": "identity",
@@ -4648,6 +5047,20 @@
     "relativePath": "icons/compute/10034-icon-service-VM-Scale-Sets.svg"
   },
   {
+    "id": "034412066-icon-service-VNet-Appliance",
+    "name": "VNet Appliance",
+    "category": "networking",
+    "fileName": "034412066-icon-service-VNet-Appliance.svg",
+    "relativePath": "icons/networking/034412066-icon-service-VNet-Appliance.svg"
+  },
+  {
+    "id": "03694-icon-service-VPNClientWindows",
+    "name": "VPNClientWindows",
+    "category": "networking",
+    "fileName": "03694-icon-service-VPNClientWindows.svg",
+    "relativePath": "icons/networking/03694-icon-service-VPNClientWindows.svg"
+  },
+  {
     "id": "03694-icon-service-VPNClientWindows",
     "name": "VPNClientWindows",
     "category": "new icons",
@@ -4751,6 +5164,13 @@
     "category": "general",
     "fileName": "10852-icon-service-Workflow.svg",
     "relativePath": "icons/general/10852-icon-service-Workflow.svg"
+  },
+  {
+    "id": "029109619-icon-service-Workload-Orchestration",
+    "name": "Workload Orchestration",
+    "category": "hybrid + multicloud",
+    "fileName": "029109619-icon-service-Workload-Orchestration.svg",
+    "relativePath": "icons/hybrid + multicloud/029109619-icon-service-Workload-Orchestration.svg"
   },
   {
     "id": "029109619-icon-service-Workload-Orchestration",

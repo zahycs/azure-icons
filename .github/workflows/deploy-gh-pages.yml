@@ -44,6 +44,9 @@ jobs:
         cd icon-viewer
         npm ci
 
+    - name: Copy icons to public directory
+      run: cp -r Azure_Public_Service_Icons/Icons/. icon-viewer/public/icons/
+
     - name: Regenerate icon index
       run: |
         echo "Regenerating icon index from existing Azure icons..."

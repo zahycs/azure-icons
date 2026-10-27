@@ -9,14 +9,15 @@ const crypto = require('crypto');
 class AzureIconsUpdater {
   constructor() {
     this.config = {
-      downloadUrl: 'https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V21.zip',
+      downloadUrl: 'https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip',
       tempDir: path.join(__dirname, '../temp'),
-      zipFile: path.join(__dirname, '../temp/Azure_Public_Service_Icons_V21.zip'),
+      zipFile: path.join(__dirname, '../temp/Azure_Public_Service_Icons_V24.zip'),
       extractedDir: path.join(__dirname, '../temp/Azure_Public_Service_Icons'),
       targetDir: path.join(__dirname, '../Azure_Public_Service_Icons'),
       backupDir: path.join(__dirname, '../Azure_Public_Service_Icons_backup'),
       iconViewerDir: path.join(__dirname, '../icon-viewer'),
       generateScriptPath: path.join(__dirname, './generate-icon-index.js'),
+      customIconPaths: ['Icons/analytics/Microsoft-Fabric.svg'],
       minIconCount: 100
     };
   }
@@ -123,7 +124,7 @@ class AzureIconsUpdater {
   extractIcons() {
     this.log('Extracting Azure icons...');
     
-    this.executeCommand(`cd "${this.config.tempDir}" && unzip -q Azure_Public_Service_Icons_V21.zip`);
+    this.executeCommand(`cd "${this.config.tempDir}" && unzip -q Azure_Public_Service_Icons_V24.zip`);
 
     // Find extracted folder
     const items = fs.readdirSync(this.config.tempDir);
@@ -152,6 +153,17 @@ class AzureIconsUpdater {
 
     this.log('Extraction completed successfully');
     return iconCount;
+  }
+
+  preserveCustomIcons() {
+    for (const relativePath of this.config.customIconPaths) {
+      const currentPath = path.join(this.config.targetDir, relativePath);
+      if (!fs.existsSync(currentPath)) continue;
+
+      const updatedPath = path.join(this.config.extractedDir, relativePath);
+      this.createDirectoryIfNotExists(path.dirname(updatedPath));
+      fs.copyFileSync(currentPath, updatedPath);
+    }
   }
 
   compareIcons() {
@@ -243,6 +255,7 @@ class AzureIconsUpdater {
       // Download and extract
       await this.downloadIcons();
       const newIconCount = this.extractIcons();
+      this.preserveCustomIcons();
 
       // Compare changes
       const comparison = this.compareIcons();

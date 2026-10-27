@@ -21,7 +21,7 @@ function generateIconIndex() {
         // Extract icon name from filename
         const fileName = path.basename(item, '.svg');
         const iconName = fileName
-          .replace(/^\d+-icon-service-/, '') // Remove number prefix and icon-service-
+          .replace(/^\d+\s*-icon-service-/, '') // Remove number prefix and icon-service-
           .replace(/-/g, ' ') // Replace hyphens with spaces
           .replace(/\b\w/g, l => l.toUpperCase()); // Title case
         

@@ -72,7 +72,7 @@ jobs:
         # Create commit message with details
         COMMIT_MSG="chore: update Azure icons from Microsoft (${{ steps.update.outputs.current_count }} -> ${{ steps.update.outputs.new_count }} icons)
         
-        - Downloaded from: https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V21.zip
+        - Downloaded from: https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip
         - Previous icon count: ${{ steps.update.outputs.current_count }}
         - New icon count: ${{ steps.update.outputs.new_count }}
         - Updated on: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
@@ -110,4 +110,4 @@ jobs:
         fi
         
         echo "" >> $GITHUB_STEP_SUMMARY
-        echo "Source: https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V21.zip" >> $GITHUB_STEP_SUMMARY
+        echo "        Source: https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V24.zip" >> $GITHUB_STEP_SUMMARY
