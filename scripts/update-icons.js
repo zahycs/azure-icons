@@ -3,15 +3,16 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
-const { execSync } = require('child_process');
+const { execSync, execFileSync } = require('child_process');
 const crypto = require('crypto');
 
 class AzureIconsUpdater {
   constructor() {
     this.config = {
-      downloadUrl: 'https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V21.zip',
+      iconsPageUrl: 'https://learn.microsoft.com/en-us/azure/architecture/icons/',
+      downloadUrl: null,
       tempDir: path.join(__dirname, '../temp'),
-      zipFile: path.join(__dirname, '../temp/Azure_Public_Service_Icons_V21.zip'),
+      zipFile: null,
       extractedDir: path.join(__dirname, '../temp/Azure_Public_Service_Icons'),
       targetDir: path.join(__dirname, '../Azure_Public_Service_Icons'),
       backupDir: path.join(__dirname, '../Azure_Public_Service_Icons_backup'),
@@ -29,33 +30,99 @@ class AzureIconsUpdater {
     console.error(`[${new Date().toISOString()}] ERROR: ${message}`);
   }
 
-  async downloadFile(url, destination) {
+  async downloadFile(url, destination, redirects = 0) {
     return new Promise((resolve, reject) => {
-      const file = fs.createWriteStream(destination);
-      
       https.get(url, (response) => {
-        if (response.statusCode === 302 || response.statusCode === 301) {
-          // Handle redirect
-          return this.downloadFile(response.headers.location, destination)
+        if ([301, 302, 303, 307, 308].includes(response.statusCode)) {
+          response.resume();
+          if (redirects >= 5) {
+            reject(new Error('Too many redirects while downloading Azure icons'));
+            return;
+          }
+          return this.downloadFile(new URL(response.headers.location, url).toString(), destination, redirects + 1)
             .then(resolve)
             .catch(reject);
         }
         
         if (response.statusCode !== 200) {
+          response.resume();
           reject(new Error(`Failed to download: ${response.statusCode}`));
           return;
         }
 
+        const file = fs.createWriteStream(destination);
         response.pipe(file);
         
         file.on('finish', () => {
-          file.close();
-          resolve();
+          file.close(resolve);
         });
         
         file.on('error', reject);
       }).on('error', reject);
     });
+  }
+
+  async fetchPage(url, redirects = 0) {
+    return new Promise((resolve, reject) => {
+      https.get(url, (response) => {
+        if ([301, 302, 303, 307, 308].includes(response.statusCode)) {
+          response.resume();
+          if (redirects >= 5) {
+            reject(new Error('Too many redirects while loading Microsoft icon page'));
+            return;
+          }
+          return this.fetchPage(new URL(response.headers.location, url).toString(), redirects + 1)
+            .then(resolve)
+            .catch(reject);
+        }
+
+        if (response.statusCode !== 200) {
+          response.resume();
+          reject(new Error(`Failed to load Microsoft icon page: ${response.statusCode}`));
+          return;
+        }
+
+        let html = '';
+        response.setEncoding('utf8');
+        response.on('data', chunk => { html += chunk; });
+        response.on('end', () => resolve(html));
+      }).on('error', reject);
+    });
+  }
+
+  extractDownloadUrl(html) {
+    const links = [...html.matchAll(/href\s*=\s*["']([^"']+)["']/gi)]
+      .map(([, href]) => href.replace(/&amp;/g, '&'))
+      .map(href => {
+        try {
+          return new URL(href, this.config.iconsPageUrl);
+        } catch {
+          return null;
+        }
+      })
+      .filter(url => url && url.protocol === 'https:' &&
+        /Azure_Public_Service_Icons.*\.zip$/i.test(url.pathname));
+
+    if (links.length === 0) {
+      throw new Error('Could not find the Azure Public Service Icons ZIP link on Microsoft Learn');
+    }
+
+    links.sort((left, right) => {
+      const leftVersion = Number(left.pathname.match(/_V(\d+)\.zip$/i)?.[1] || 0);
+      const rightVersion = Number(right.pathname.match(/_V(\d+)\.zip$/i)?.[1] || 0);
+      return rightVersion - leftVersion;
+    });
+
+    return links[0].toString();
+  }
+
+  async findLatestDownloadUrl() {
+    const html = await this.fetchPage(this.config.iconsPageUrl);
+    const downloadUrl = this.extractDownloadUrl(html);
+    this.config.downloadUrl = downloadUrl;
+    this.config.zipFile = path.join(this.config.tempDir, path.basename(new URL(downloadUrl).pathname));
+    this.log(`Latest icon archive: ${downloadUrl}`);
+    return downloadUrl;
   }
 
   executeCommand(command, options = {}) {
@@ -104,6 +171,8 @@ class AzureIconsUpdater {
     this.log('Creating temp directory...');
     this.createDirectoryIfNotExists(this.config.tempDir);
 
+    await this.findLatestDownloadUrl();
+
     this.log('Downloading Azure icons from Microsoft...');
     await this.downloadFile(this.config.downloadUrl, this.config.zipFile);
 
@@ -123,7 +192,10 @@ class AzureIconsUpdater {
   extractIcons() {
     this.log('Extracting Azure icons...');
     
-    this.executeCommand(`cd "${this.config.tempDir}" && unzip -q Azure_Public_Service_Icons_V21.zip`);
+    execFileSync('unzip', ['-q', this.config.zipFile], {
+      cwd: this.config.tempDir,
+      stdio: 'inherit'
+    });
 
     // Find extracted folder
     const items = fs.readdirSync(this.config.tempDir);
