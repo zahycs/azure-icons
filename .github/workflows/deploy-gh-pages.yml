@@ -50,6 +50,11 @@ jobs:
         node scripts/generate-icon-index.js
         echo "Icon index regenerated"
 
+    - name: Sync icons into public directory
+      run: |
+        rm -rf icon-viewer/public/icons
+        cp -r Azure_Public_Service_Icons/Icons icon-viewer/public/icons
+
     - name: Verify icons exist
       run: |
         echo "Checking icons in public directory..."
